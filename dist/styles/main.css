@@ -2446,21 +2446,21 @@ hr {
 .screenshots {
   position: relative;
   display: block;
-  height: 600px; }
+  height: auto; }
   .screenshots .shadow {
     text-align: center; }
     .screenshots .shadow .wrapper {
-      padding-top: 2em;
-      vertical-align: middle; }
-      .screenshots .shadow .wrapper .slider {
-        width: 80%;
-        margin: 0 auto; }
-        .screenshots .shadow .wrapper .slider .item {
-          width: 180px !important;
-          height: 200px;
-          display: inline-block;
-          background-color: red;
-          margin: 1em; }
+      padding: 2em 0;
+      vertical-align: middle;
+      max-width: 1200px; }
+      .screenshots .shadow .wrapper .bx-wrapper {
+        background-color: transparent !important;
+        border: none;
+        box-shadow: none; }
+      .screenshots .shadow .wrapper .bxslider {
+        width: 100%; }
+        .screenshots .shadow .wrapper .bxslider li {
+          width: 420px !important; }
 
 .caracteristicas i {
   color: #AB70C0; }

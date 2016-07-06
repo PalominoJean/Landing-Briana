@@ -8,7 +8,7 @@ var paths = {
         './styles/**/*.scss'
     ],
     image: [
-        './images/**/*.{png,jpg,jpeg}'
+        './images/**/*.{png,jpg,jpeg,gif}'
     ],
     fonts: [
         './fonts/**/*.{ttf,eot,woff,woff2}',
@@ -18,7 +18,8 @@ var paths = {
     script: [
         './scripts/*.js',
         './bower_components/jquery/dist/jquery.min.js',
-        './bower_components/slick-carousel/slick/slick.min.js'
+        './bower_components/slick-carousel/slick/slick.min.js',
+        './node_modules/bxslider/dist/jquery.bxslider.min.js'
     ],
     templates: [
         './*.html',

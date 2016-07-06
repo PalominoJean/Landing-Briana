@@ -147,22 +147,22 @@ hr {
     // background-size: cover;
     position: relative;
     display: block;
-    height: 600px;
+    height: auto;
     .shadow {
         text-align: center;
         .wrapper {
-            padding-top: 2em;
+            padding: 2em 0;
             vertical-align: middle;
-            .slider {
-                width: 80%;
-                // min-width: 900px;
-                margin: 0 auto;
-                .item {
-                    width: 180px !important;
-                    height: 200px;
-                    display: inline-block;
-                    background-color: red;
-                    margin: 1em;
+            max-width: 1200px;
+            .bx-wrapper {
+                background-color: transparent !important;
+                border: none;
+                box-shadow: none;
+            }
+            .bxslider {
+                width: 100%;
+                li {
+                    width: 420px !important;
                 }
             }
         }
@@ -292,7 +292,7 @@ footer {
     }
 }
 @media screen and (min-width: 1200px) {
-    .home .shadow .home_content .wrap .home_phone img{
+    .home .shadow .home_content .wrap .home_phone img {
         width: 300px;
     }
     .caracteristicas {

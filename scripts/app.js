@@ -30,16 +30,12 @@ var App = function() {
             })
         },
         carousel: function() {
-            $('.slider').slick();
-            // $('.slider').slick({
-            //     dots: true,
-            //     infinite: true,
-            //     speed: 800,
-            //     autoplaySpeed: 4000,
-            //     cssEase: 'linear',
-            //     autoplay: true,
-            //     arrows: false
-            // });
+            $('.bxslider').bxSlider({
+                maxSlides: 3,
+                auto: true,
+                responsive:true,
+                speed: 600
+            });
         }
     }
     this.view.constructor();
