@@ -1,16 +1,35 @@
+//Lato
 @font-face {
     font-family: 'lato-bold';
-    src: url('../fonts/fonts/Lato-Bold.ttf')format('truetype');
+    src: url('../../fonts/Lato/Lato-Bold.ttf')format('truetype');
 }
 @font-face {
     font-family: 'lato-light';
-    src: url('../fonts/Lato-Light.ttf')format('truetype');
+    src: url('../../fonts/Lato/Lato-Light.ttf')format('truetype');
 }
 @font-face {
     font-family: 'lato-lightItalic';
-    src: url('../fonts/Lato-LightItalic.ttf')format('truetype');
+    src: url('../../fonts/Lato/Lato-LightItalic.ttf')format('truetype');
 }
 @font-face {
     font-family: 'lato-regular';
-    src: url('../fonts/Lato-Regular.ttf')format('truetype');
+    src: url('../../fonts/Lato/Lato-Regular.ttf')format('truetype');
+}
+
+//open sans
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../../fonts/Open_Sans/OpenSans-Bold.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'opensans-light';
+    src: url('../../fonts/Open_Sans/OpenSans-Light.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'opensans-lightItalic';
+    src: url('../../fonts/Open_Sans/OpenSans-LightItalic.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'opensans';
+    src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf')format('truetype');
 }

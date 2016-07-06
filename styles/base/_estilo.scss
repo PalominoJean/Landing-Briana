@@ -1,0 +1,303 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.shadow{
+  display: table;
+  background-color: rgba(black, 0.4);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+h2{
+  color: $briana;
+}
+hr{
+  height: 2px;
+  width: 20%;
+  background-color: $briana;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+.home {
+    background-image: url('../../images/fondo1.jpg');
+    // background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+    // opacity: 0.1;
+    overflow: hidden;
+    .shadow {
+        // text-align: center;
+        // position: relative;
+        .home_content {
+            display: table-cell;
+            // text-align: center;
+            vertical-align: middle;
+            .wrap {
+                // width: 90%;
+                margin: 0 auto;
+                .home_title{
+                    text-align: center;
+                  .home_logo{
+                    // display: inline-block;
+                    margin:0 auto;
+
+                    height: 100px;
+                    width: 300px;
+                    // text-align: center;;
+                    img{
+
+                      // margin: 0 auto;
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                    // text-align: center;
+
+                  .android_button {
+                    margin: 0.3em 0;
+                    display: inline-block;
+                    i{
+                    }
+                    :hover{
+                      color:#77C159;
+                    }
+                  }
+                  .content_button {
+                    width: 75%;
+                    margin: 0 auto;
+                    a {
+                      padding: 0.5em 0;
+                      margin: 0.5em 0;
+                      display: block;
+                      text-decoration: none;
+                      border-radius: 6px;
+                      background-color: $briana;
+                      // &:first-child {
+                      //     background-color: red;
+                      // }
+                      //
+                      // &:last-child {
+                      //     background-color: green;
+                      // }
+                    }
+                    :hover{
+                      background-color: $violet2_briana;
+                    }
+                  }
+                }
+                .home_phone{
+                  // background-color: black;
+                  img{
+
+                  }
+                }
+            }
+        }
+    }
+}
+.info, .caracteristicas{
+  // color: $Grey_briana;
+    // width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+
+    .info_definition {
+        color: $Grey_briana;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 0em;
+        padding-bottom: 1em;
+
+
+    }
+
+    .content_info_article{
+      // padding: 2.5em 0em;
+      padding-top: 0em;
+      text-align: center;
+      .info_article{
+        margin-bottom: 30px;
+        // text-align: center;
+        // width: 80px;
+        .article_image{
+          margin: 0 auto;
+          width: 80px;
+          img{
+            width: 100%;
+          }
+        }
+        h3{
+          margin-top: 0.3em;
+          margin-bottom: 0.3em;
+          color: $briana;
+          font-size: 18px;
+        }
+        .article_description{
+          font-size: 16px;
+          color: $Grey_briana;
+        }
+      }
+    }
+}
+
+.screenshots{
+  background-image: url('../../images/phone.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  height: 600px;
+  .shadow{
+
+    .wrapper{
+      padding-top: 2em;
+    }
+  }
+}
+
+.caracteristicas{
+  i{
+    color: $briana;
+  }
+}
+
+.objetivo{
+  background-image: url('../../images/fondo2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  height: 600px;
+  .shadow{
+    position: relative;
+    background-color: rgba(black, 0.4);
+    .wrapper{
+      // width: 80%;
+      // margin: 0 auto;
+      display: table-cell;
+      // text-align: center;
+      vertical-align: middle;
+      h2{
+        color: $briana;
+        text-transform: uppercase;
+        padding-bottom: 1em;
+      }
+      .article_description{
+        color: white;
+        font-weight: bold;
+        width: 80%;
+        margin: auto;
+      }
+
+    }
+  }
+}
+footer{
+  background-color: $GreyDark;
+  text-align: center;
+  h5{
+    font-weight: normal;
+    font-size: 0.7em;
+    padding: 3em;
+    color: $Grey_briana;
+    a{
+      i{
+        color: $Grey_briana;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+    .home{
+      .shadow{
+        .home_content{
+          .wrap{
+            .home_title{
+              .content_button{
+                width: 40%;
+
+              }
+
+            }
+
+          }
+        }
+      }
+    }
+    .info,.caracteristicas{
+      .wrapper{
+        .content_info_article{
+          .info_article{
+            width: 40%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 1em;
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 992px){
+  .home{
+    .shadow{
+      .home_content{
+        .wrap{
+          text-align: center;
+          width: 60%;
+          .home_title{
+            vertical-align:top;
+            display: inline-block;
+            width: 50%;
+            // float: right;
+            .content_button{
+              width: 40%;
+            }
+          }
+          .home_phone{
+            display: inline-block;
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+  .info, .caracteristicas{
+    .wrapper{
+
+      .content_info_article{
+        .info_article{
+          width: 30%;
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .caracteristicas{
+    .wrapper{
+        width: 60%;
+      .content_info_article{
+        .info_article{
+          width: 24%;
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}

@@ -7,25 +7,28 @@
 }
 body,
 html {
-    font-family: 'lato-regular' !important;
-}
-body {
-    position: relative;
+    // font-family: 'lato-regular' !important;
+    font-family: 'opensans';
+    // font-family: $arima_regular;
     height: 100%;
 }
-.content-mobile {
-    position: fixed;
-    transition: right 0.5s;
-    background-color: #222;
-    top: 0;
-    width: 50%;
-    bottom: 0;
-    right: -100%;
+body {
+    // position: : relative;
+    // height: 100%;
 }
-.openMenu {
-    transition: right 0.5s;
-    right: 0;
-}
-.closeMenu {
-    right: -500px;
-}
+// .content-mobile {
+//     position: fixed;
+//     transition: right 0.5s;
+//     background-color: #222;
+//     top: 0;
+//     width: 50%;
+//     bottom: 0;
+//     right: -100%;
+// }
+// .openMenu {
+//     transition: right 0.5s;
+//     right: 0;
+// }
+// .closeMenu {
+//     right: -500px;
+// }

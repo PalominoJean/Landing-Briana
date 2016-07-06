@@ -1,8 +1,8 @@
 //utils
 @import "../bower_components/font-awesome/scss/font-awesome";
 @import "utils/variables"; //base
-// @import "base/helpers";
+
 @import "base/base";
+@import "base/estilo";
 @import "base/typography"; //components
 @import "components/home";
-@import "components/landing";
