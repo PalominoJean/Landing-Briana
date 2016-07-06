@@ -5,18 +5,20 @@ var browsersync = require('browser-sync').create();
 var reload = browsersync.reload;
 var paths = {
     styles: [
-        './styles/**/*.scss',
+        './styles/**/*.scss'
     ],
     image: [
         './images/**/*.{png,jpg,jpeg}'
     ],
     fonts: [
         './fonts/**/*.{ttf,eot,woff,woff2}',
-        './bower_components/font-awesome/fonts/*.{ttf,eot,woff,woff2}'
+        './bower_components/font-awesome/fonts/*.{ttf,eot,woff,woff2}',
+        './bower_components/slick-carousel/slick/fonts/*.{ttf,eot,woff,svg}'
     ],
     script: [
         './scripts/*.js',
-        './node_modules/jquery/dist/jquery.min.js'
+        './bower_components/jquery/dist/jquery.min.js',
+        './bower_components/slick-carousel/slick/slick.min.js'
     ],
     templates: [
         './*.html',
@@ -59,6 +61,7 @@ gulp.task('scripts', function() {
             stream: true
         }))
 });
+
 gulp.task('fonts', function() {
     return gulp
         .src(paths.fonts)

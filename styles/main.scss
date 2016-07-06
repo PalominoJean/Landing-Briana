@@ -1,8 +1,16 @@
 //utils
 @import "../bower_components/font-awesome/scss/font-awesome";
+@import "../bower_components/slick-carousel/slick/slick-theme.scss";
+@import "slick";
 @import "utils/variables"; //base
-
 @import "base/base";
-@import "base/estilo";
+@import "components/estilo";
 @import "base/typography"; //components
 @import "components/home";
+@font-face {
+    font-family: "slick" !important;
+    src: url("../../fonts/slick.eot") !important;
+    src: url("../../fonts/slick.eot?#iefix") format("embedded-opentype"), url("../../fonts/slick.woff") format("woff"), url("../../fonts/slick.ttf") format("truetype"), url("../../fonts/slick.svg#slick") format("svg") !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}

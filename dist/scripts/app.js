@@ -5,6 +5,7 @@ var App = function() {
         constructor: function() {
             this.toggleMenu();
             this.closeMenu();
+            this.carousel();
         },
         toggleMenu: function() {
             var item = $('.header_menu_mobile');
@@ -27,6 +28,18 @@ var App = function() {
                     self.flag = false;
                 }
             })
+        },
+        carousel: function() {
+            $('.slider').slick();
+            // $('.slider').slick({
+            //     dots: true,
+            //     infinite: true,
+            //     speed: 800,
+            //     autoplaySpeed: 4000,
+            //     cssEase: 'linear',
+            //     autoplay: true,
+            //     arrows: false
+            // });
         }
     }
     this.view.constructor();
