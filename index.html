@@ -5,36 +5,76 @@
     <meta charset="UTF-8">
     <title>Briana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/slick.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/Bxslider.css">
+    <!-- <link rel="stylesheet" href="styles/Bxslider.css"> -->
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+
+
 </head>
 
 <body>
     <section class="home">
+        <div class="menu_logo_movil_abrir" >
+          <!-- <a> -->
+            <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+          <!-- </a> -->
+        </div>
+        <div class="menu">
+            <div class="menu_logo_movil_cerrar">
+                <!-- <a> -->
+                    <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+                <!-- </a> -->
+
+            </div>
+            <div class="menu_secciones">
+                <ul>
+                    <li><a href="" class="jump">Home</a></li>
+                    <li><a href="" class="jump">Informacion</a></li>
+                    <li><a href="" class="jump">Screenshots</a></li>
+                    <li><a href="" class="jump">Caracteristicas</a></li>
+                </ul>
+            </div>
+            <div class="menu_logo_android">
+                <a class="android_button" href="https://play.google.com/store/apps/details?id=com.kodevian.briana">
+                    <i class="fa fa-android fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <!-- <div class="header_menu_mobile">
+            <ul class="content-mobile">
+                <li><a href="">Home</a></li>
+                <li><a href="">Informacion</a></li>
+                <li><a href="">Screenshots</a></li>
+                <li><a href="">Caracteristicas</a></li>
+            </ul>
+        </div> -->
         <div class="shadow">
             <div class="home_content">
                 <div class="wrap">
-                    <div class="home_title">
-                        <div class="home_logo">
-                            <img src="images/logo1.png" alt="">
+                    <div class="home-data">
+                        <div class="home-data home_title">
+                            <div class="home_logo">
+                                <img src="images/logo1.png" alt="">
+                            </div>
+                            <a class="android_button" href="https://play.google.com/store/apps/details?id=com.kodevian.briana">
+                                <i class="fa fa-android fa-3x" aria-hidden="true"></i>
+                            </a>
+                            <div class="content_button">
+                                <a href="https://play.google.com/store/apps/details?id=com.kodevian.briana">Descargar</a>
+                                <a href="#">Informacion</a>
+                            </div>
                         </div>
-                        <a class="android_button" href="#">
-                            <i class="fa fa-android fa-3x" aria-hidden="true"></i>
-                        </a>
-                        <div class="content_button">
-                            <a href="#">Descargar</a>
-                            <a href="#">Informacion</a>
+                        <div class="home-data home_phone">
+                            <img src="images/1.png" alt="" />
                         </div>
-                    </div>
-                    <div class="home_phone">
-                        <img src="images/1.png" alt="" />
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="info">
+    <section class="informacion">
         <section class="wrapper">
             <h2>INFORMACION</h2>
             <hr>
@@ -76,15 +116,16 @@
     <section class="screenshots">
         <section class="shadow">
             <section class="wrapper">
-                <ul class="bxslider">
-                    <li><img src="/images/11.png"></li>
-                    <li><img src="/images/12.png"></li>
-                    <li><img src="/images/13.png"></li>
-                    <li><img src="/images/14.png"></li>
-                    <li><img src="/images/15.png"></li>
-                    <li><img src="/images/16.png"></li>
-                    <li><img src="/images/17.png"></li>
-                </ul>
+                <div class="slider">
+                    <div class="slide"><img src="/images/11.png"></div>
+                    <div class="slide"><img src="/images/12.png"></div>
+                    <div class="slide"><img src="/images/13.png"></div>
+                    <div class="slide"><img src="/images/14.png"></div>
+                    <div class="slide"><img src="/images/15.png"></div>
+                    <div class="slide"><img src="/images/16.png"></div>
+                    <div class="slide"><img src="/images/17.png"></div>
+                    <div class="slide"><img src="/images/18.png"></div>
+                </div>
             </section>
         </section>
     </section>
@@ -98,7 +139,7 @@
             <section class="content_info_article">
                 <article class="info_article">
                     <div class="article_image">
-                        <img src="../images/7.png" alt="">
+                        <img src="../images/8.png" alt="">
                     </div>
                     <h3>VACUNAS</h3>
                     <p class="article_description">
@@ -107,7 +148,7 @@
                 </article>
                 <article class="info_article">
                     <div class="article_image">
-                        <img src="../images/8.png" alt="">
+                        <img src="../images/9.png" alt="">
                     </div>
                     <h3>INFORMACION</h3>
                     <p class="article_description">
@@ -116,7 +157,7 @@
                 </article>
                 <article class="info_article">
                     <div class="article_image">
-                        <img src="../images/9.png" alt="">
+                        <img src="../images/7.png" alt="">
                     </div>
                     <h3>LUGAR DE VACUNAS</h3>
                     <p class="article_description">
@@ -130,6 +171,15 @@
                     <h3>EVENTOS</h3>
                     <p class="article_description">
                         Te permitirá colocar eventos como sus primeros pasos, cuando dijo mamá y papá, y muchas cosas más.
+                    </p>
+                </article>
+                <article class="info_article">
+                    <div class="article_image">
+                        <img src="../images/21.png" alt="">
+                    </div>
+                    <h3>SOLICITUD</h3>
+                    <p class="article_description">
+                        Puedes añadir a mas personas para que puedan acceder al control de vacunas, informacion, etc. de tu bebe.
                     </p>
                 </article>
             </section>
@@ -147,13 +197,14 @@
     </section>
     <footer>
         <h5>
-        Hecho con <a href="http://kodevian.com/"><i class="fa fa-heart" aria-hidden="true"></i></a> en Perú
+        Hecho con <a href="http://kodevian.com/">
+            <i class="fa fa-heart fa-2x" aria-hidden="true"></i></a> en Perú
       </h5>
     </footer>
 
     <script src="scripts/jquery.min.js" charset="utf-8"></script>
+    <!-- <script src="scripts/jquery.bxslider.min.js" charset="utf-8"></script> -->
     <script src="scripts/slick.min.js" charset="utf-8"></script>
-    <script src="scripts/jquery.bxslider.min.js" charset="utf-8"></script>
     <script src="scripts/app.js" charset="utf-8"></script>
 
 </body>

@@ -5,21 +5,23 @@ var browsersync = require('browser-sync').create();
 var reload = browsersync.reload;
 var paths = {
     styles: [
-        './styles/**/*.scss'
+        './styles/**/*.scss',
+        './node_modules/slick-carousel/slick/*.scss'
     ],
     image: [
         './images/**/*.{png,jpg,jpeg,gif}'
     ],
     fonts: [
         './fonts/**/*.{ttf,eot,woff,woff2}',
-        './bower_components/font-awesome/fonts/*.{ttf,eot,woff,woff2}',
-        './bower_components/slick-carousel/slick/fonts/*.{ttf,eot,woff,svg}'
+        './bower_components/font-awesome/fonts/*.{ttf,eot,woff,woff2,svg}',
+        // './bower_components/slick-carousel/slick/fonts/*.{ttf,eot,woff,svg}'
+        './node_modules/slick-carousel/slick/fonts/*.{ttf,eot,woff,woff2}'
     ],
     script: [
         './scripts/*.js',
         './bower_components/jquery/dist/jquery.min.js',
-        './bower_components/slick-carousel/slick/slick.min.js',
-        './node_modules/bxslider/dist/jquery.bxslider.min.js'
+        // './node_modules/bxslider/dist/jquery.bxslider.min.js'
+        './node_modules/slick-carousel/slick/slick.min.js'
     ],
     templates: [
         './*.html',
