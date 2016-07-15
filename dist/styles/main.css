@@ -2239,8 +2239,11 @@ hr {
   overflow: hidden; }
   .home .menu_logo_movil_abrir {
     position: fixed;
-    right: 1em;
-    z-index: 1; }
+    right: 0em;
+    margin-top: 10px;
+    margin-right: 15px;
+    z-index: 1;
+    text-shadow: 2px 2px #000000; }
   .home .menu {
     background-color: #323232;
     position: fixed;
@@ -2249,9 +2252,9 @@ hr {
     right: 0;
     height: 100%; }
     .home .menu .menu_logo_movil_cerrar {
-      text-align: right; }
-      .home .menu .menu_logo_movil_cerrar a {
-        padding: 2em 1em; }
+      text-align: right;
+      margin-top: 10px;
+      margin-right: 15px; }
     .home .menu .menu_secciones ul li {
       display: block; }
       .home .menu .menu_secciones ul li a {
@@ -2401,12 +2404,14 @@ footer {
   .home .menu_logo_movil_abrir {
     display: none; }
   .home .menu {
-    display: block;
+    display: block !important;
     width: 100%;
     position: fixed;
     z-index: 1;
-    height: 2em;
+    height: 5em;
     background-color: White; }
+    .home .menu .menu_logo_movil_cerrar {
+      display: none; }
     .home .menu .menu_logo_android,
     .home .menu .menu_secciones {
       display: inline-block;

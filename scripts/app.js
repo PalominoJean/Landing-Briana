@@ -118,7 +118,7 @@ var App = function() {
           $('.jump').click(function () {
                 var section = $(this).text();
                 var sectionlow = section.toLowerCase();
-                var sectionTop =$('.'+sectionlow).offset().top;
+                var sectionTop =$('.'+sectionlow).offset().top-30;
                 $("html, body").animate({
                 	scrollTop: sectionTop
                 }, 600);

@@ -33,16 +33,15 @@ hr {
     position: relative;
     display: block;
     height: 100%;
-    // opacity: 0.1;
     overflow: hidden;
     .menu_logo_movil_abrir {
-        // visibility: hidden;
         position: fixed;
-        // text-align: right;
-        right: 1em;
-        // display: block;
+        right: 0em;
+        margin-top: 10px;
+        margin-right: 15px;
         z-index: 1;
-        // background-color: black;
+
+        text-shadow: 2px 2px #000000;
     }
     .menu {
         background-color: $GreyDark;
@@ -53,10 +52,8 @@ hr {
         height: 100%;
         .menu_logo_movil_cerrar {
             text-align: right;
-            // padding: 1em 0.5em;
-            a {
-                padding: 2em 1em;
-            }
+            margin-top: 10px;
+            margin-right: 15px;
         }
         .menu_secciones {
             ul {
@@ -79,44 +76,9 @@ hr {
             padding: 1em 0;
         }
     }
-    // .header_menu_mobile{
-    //   position: absolute;
-    //   visibility: hidden;
-    //   .content-mobile{
-    //     li{
-    //       background-color: red;
-    //       a{
-    //         color: blue;
-    //       }
-    //     }
-    //
-    //   }
-    // }
-    // .menu_secciones{
-    //   text-align: center;
-    //   width: 100%;
-    //
-    //   li{
-    //     width: 15%;
-    //     display: inline-block;
-    //     // padding: 1em;
-    //     // background-color: red;
-    //     float: left;
-    //     a {
-    //         padding: 0.5em 0;
-    //         margin: 0.5em 0;
-    //         display: block;
-    //         text-decoration: none;
-    //         // border-radius: 6px;
-    //         background-color: $rojobriana;
-    //     }
-    //   }
-    // }
-    // .menu_logo_android{
-    //   float: right;
-    // }
+
     .shadow {
-        // background-color: rgba($moradobriana, 0.1);
+
         .home_content {
             display: table-cell;
             vertical-align: middle;
@@ -139,19 +101,11 @@ hr {
                                 height: 100%;
                             }
                         }
-                        // .android_button {
-                        //     margin: 0.3em 0;
-                        //     display: inline-block;
-                        //
-                        //     :hover {
-                        //         color: $verdeandroid;
-                        //     }
-                        // }
+
                         .content_button {
                             width: 230px;
                             margin: 0 auto;
                             a {
-                                // padding: 0.5em 0;
                                 padding: 0.5em;
                                 margin: 0.5em 0;
                                 display: block;
@@ -166,7 +120,6 @@ hr {
                         }
                     }
                     .home_phone {
-                        // background-color: black;
                         width: 30%;
                         margin: 0 auto;
                         img {
@@ -180,26 +133,20 @@ hr {
 }
 .caracteristicas,
 .informacion {
-    // color: $grisbriana;
-    // width: 100%;
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
     .info_definition {
         color: $grisbriana;
         font-size: 16px;
-        // font-weight: bold;
         padding-top: 0;
         padding-bottom: 2.5em;
     }
     .content_info_article {
-        // padding: 2.5em 0em;
         padding-top: 0;
         text-align: center;
         .info_article {
             margin-bottom: 30px;
-            // text-align: center;
-            // width: 80px;
             .article_image {
                 margin: 0 auto;
                 width: 80px;
@@ -221,41 +168,22 @@ hr {
     }
 }
 .screenshots {
-    // background-image: url('../../images/phone.jpg');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
     position: relative;
     display: block;
     height: auto;
     .shadow {
         text-align: center;
-        // background-color: rgba(black, 0.);
         .wrapper {
             padding: 2em 0;
             vertical-align: middle;
             max-width: 300px;
-            // .bx-wrapper {
-            //     background-color: transparent !important;
-            //     border: none;
-            //     box-shadow: none;
-            // }
             .slider {
-                // .slick-initialized .slik-slider .slick-list .draggable
-                // width: 100%;
-                // padding: 0;
-                // margin: 0;
             }
             .slick-slider {
-                // width: 100%;
-                // background-color: : black;
             }
             .slick-slide {
-                // min-width: 300px;
                 img {
-                    // display: inline;
                     margin: 0 auto;
-                    // padding: 1em 0em;
                     width: 80%;
                 }
             }
@@ -279,16 +207,13 @@ hr {
         position: relative;
         background-color: rgba(black, 0.3);
         .wrapper {
-            // width: 80%;
-            // margin: 0 auto;
+
             display: table-cell;
-            // text-align: center;
             vertical-align: middle;
             h2 {
                 color: White;
                 text-transform: uppercase;
                 padding-bottom: 1em;
-                // font-size: 18px;
             }
             .article_description {
                 color: white;
@@ -325,31 +250,36 @@ footer {
     .home {
       .menu_logo_movil_abrir{
         display: none;
+
       }
         .menu {
-          display: block;
-            // visibility: hidden;
+          display: block !important;
+
             width: 100%;
             position: fixed;
             z-index: 1;
-            // padding: 1em 0em;
-            height: 2em;
+
+            height: 5em;
             background-color: White;
+            .menu_logo_movil_cerrar{
+              display: none;
+
+            }
             .menu_logo_android,
             .menu_secciones {
                 display: inline-block;
                 vertical-align: middle;
-                // width: 25%;
+
                 padding: 1em;
                 text-align: center;
             }
             .menu_logo_android {
                 padding: 0.5em;
-                // margin: 0 auto;
+
                 text-align: center;
                 width: 29%;
                 a {
-                    // text-align: center;
+
                     i {
                         color: $grisbriana;
                     }
@@ -389,9 +319,7 @@ footer {
                     }
                     .home_phone {
                         width: 300px;
-                        // max-width: 400px;
-                        img {}
-                        // padding-top: : 10em;
+
                     }
                 }
             }
@@ -402,11 +330,11 @@ footer {
             .wrapper {
                 max-width: 768px;
                 .slick-slide {
-                    // min-width: 300px;
+
                     img {
-                        // display: inline;
+
                         margin: 0 auto;
-                        // padding: 1em 0em;
+
                         width: 80%;
                     }
                 }
@@ -439,7 +367,7 @@ footer {
                         vertical-align: top;
                         display: inline-block;
                         width: 50%;
-                        // float: right;
+
                         .content_button {
                             width: 70%;
                         }
@@ -486,13 +414,7 @@ footer {
     .caracteristicas {
         .wrapper {
             width: 80%;
-            // .content_info_article {
-            //     .info_article {
-            //         width: 24%;
-            //         display: inline-block;
-            //         vertical-align: top;
-            //     }
-            // }
+        
         }
     }
 }
