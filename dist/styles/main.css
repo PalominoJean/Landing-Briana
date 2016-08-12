@@ -2193,13 +2193,13 @@
 * {
   margin: 0;
   padding: 0;
-  color: #FFFFFF;
+  color: White;
   border: 0;
   box-sizing: border-box; }
 
 body,
 html {
-  font-family: 'opensans';
+  font-family: 'rubik-regular';
   height: 100%; }
 
 .wrapper {
@@ -2218,7 +2218,7 @@ h2 {
 
 hr {
   height: 2px;
-  width: 20%;
+  width: 130px;
   background-color: #AB70C0;
   margin: 0 auto 2em; }
 
@@ -2314,7 +2314,7 @@ hr {
   .caracteristicas .info_definition,
   .informacion .info_definition {
     color: #9E9E9E;
-    font-size: 16px;
+    font-size: 17px;
     padding-top: 0;
     padding-bottom: 2.5em; }
   .caracteristicas .content_info_article,
@@ -2339,7 +2339,7 @@ hr {
         font-size: 18px; }
       .caracteristicas .content_info_article .info_article .article_description,
       .informacion .content_info_article .info_article .article_description {
-        font-size: 16px;
+        font-size: 17px;
         color: #9E9E9E; }
 
 .screenshots {
@@ -2390,13 +2390,12 @@ footer {
   footer h5 {
     vertical-align: middle;
     font-weight: normal;
-    font-size: 0.7em;
+    font-size: 13px;
     padding: 3em;
     color: #9E9E9E; }
     footer h5 a i {
-      color: #9E9E9E; }
+      color: red; }
     footer h5 a :hover {
-      color: red;
       transform: scale(1.5);
       transition-duration: 1s; }
 
@@ -2488,32 +2487,60 @@ footer {
 
 @font-face {
   font-family: 'lato-bold';
-  src: url("../../fonts/Lato/Lato-Bold.ttf") format("truetype"); }
+  src: url("../../fonts/Lato-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'lato-light';
-  src: url("../../fonts/Lato/Lato-Light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'lato-lightItalic';
-  src: url("../../fonts/Lato/Lato-LightItalic.ttf") format("truetype"); }
+  src: url("../../fonts/Lato-Light.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'lato-regular';
-  src: url("../../fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+  src: url("../../fonts/Lato-Regular.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'opensans-bold';
-  src: url("../../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+  font-family: 'comfortaa-bold';
+  src: url("../../fonts/Comfortaa-Bold.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'opensans-light';
-  src: url("../../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+  font-family: 'comfortaa-light';
+  src: url("../../fonts/Comfortaa-Light.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'opensans-lightItalic';
-  src: url("../../fonts/Open_Sans/OpenSans-LightItalic.ttf") format("truetype"); }
+  font-family: 'comfortaa-regular';
+  src: url("../../fonts/Comfortaa-Regular.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'opensans';
-  src: url("../../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+  font-family: 'dosis-bold';
+  src: url("../../fonts/Dosis-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'dosis-light';
+  src: url("../../fonts/Dosis-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'dosis-regular';
+  src: url("../../fonts/Dosis-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'rubik-bold';
+  src: url("../../fonts/Rubik-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'rubik-light';
+  src: url("../../fonts/Rubik-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'rubik-regular';
+  src: url("../../fonts/Rubik-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'nunito-bold';
+  src: url("../../fonts/Nunito-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'nunito-light';
+  src: url("../../fonts/Nunito-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'nunito-regular';
+  src: url("../../fonts/Nunito-Regular.ttf") format("truetype"); }

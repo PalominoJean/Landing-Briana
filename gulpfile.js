@@ -9,7 +9,7 @@ var paths = {
         './node_modules/slick-carousel/slick/*.scss'
     ],
     image: [
-        './images/**/*.{png,jpg,jpeg,gif}'
+        './images/*.{png,jpg,jpeg,gif,ico}'
     ],
     fonts: [
         './fonts/**/*.{ttf,eot,woff,woff2}',

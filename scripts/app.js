@@ -118,6 +118,7 @@ var App = function() {
           $('.jump').click(function () {
                 var section = $(this).text();
                 var sectionlow = section.toLowerCase();
+                document.write(section.low+" holi boli");
                 var sectionTop =$('.'+sectionlow).offset().top-30;
                 $("html, body").animate({
                 	scrollTop: sectionTop
