@@ -2,11 +2,13 @@
 @import "../bower_components/font-awesome/scss/font-awesome";
 // @import "../bower_components/slick-carousel/slick/slick-theme.scss";
 // @import "slick";
+// @import "../node_modules/slick-carousel/slick/slick-theme.scss";
+
 @import "utils/variables"; //base
 @import "base/base";
 @import "components/estilo";
 @import "base/typography"; //components
-@import "components/home";
+
 // @font-face {
 //     font-family: "slick" !important;
 //     src: url("../../fonts/slick.eot") !important;

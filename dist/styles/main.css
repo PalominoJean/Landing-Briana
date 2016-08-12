@@ -2208,7 +2208,7 @@ html {
 
 .shadow {
   display: table;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   height: 100%;
   width: 100%;
   text-align: center; }
@@ -2228,7 +2228,7 @@ hr {
   .android_button :hover {
     color: #77C159; }
 
-.home {
+.inicio {
   background-image: url("../../images/fondo2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -2237,60 +2237,60 @@ hr {
   display: block;
   height: 100%;
   overflow: hidden; }
-  .home .menu_logo_movil_abrir {
+  .inicio .menu_logo_movil_abrir {
     position: fixed;
     right: 0;
     margin-top: 10px;
     margin-right: 15px;
     z-index: 1;
     text-shadow: 2px 2px #000000; }
-  .home .menu {
+  .inicio .menu {
     background-color: #323232;
     position: fixed;
     z-index: 1;
     display: none;
     right: 0;
     height: 100%; }
-    .home .menu .menu_logo_movil_cerrar {
+    .inicio .menu .menu_logo_movil_cerrar {
       text-align: right;
       margin-top: 10px;
       margin-right: 15px; }
-    .home .menu .menu_secciones ul li {
+    .inicio .menu .menu_secciones ul li {
       display: block; }
-      .home .menu .menu_secciones ul li a {
+      .inicio .menu .menu_secciones ul li a {
         display: block;
         padding: 1em 3em;
         text-decoration: none; }
-      .home .menu .menu_secciones ul li :hover {
+      .inicio .menu .menu_secciones ul li :hover {
         background-color: #9E9E9E;
         color: #323232; }
-    .home .menu .menu_logo_android {
+    .inicio .menu .menu_logo_android {
       text-align: center;
       padding: 1em 0; }
-  .home .shadow .home_content {
+  .inicio .shadow .home_content {
     display: table-cell;
     vertical-align: middle; }
-    .home .shadow .home_content .wrap {
+    .inicio .shadow .home_content .wrap {
       margin: 0 auto; }
-      .home .shadow .home_content .wrap .home-data {
+      .inicio .shadow .home_content .wrap .home-data {
         display: inline-block;
         vertical-align: middle;
         width: 100%; }
-        .home .shadow .home_content .wrap .home-data .home_title {
+        .inicio .shadow .home_content .wrap .home-data .home_title {
           padding: 1em 0;
           text-align: center;
           vertical-align: middle; }
-          .home .shadow .home_content .wrap .home-data .home_title .home_logo {
+          .inicio .shadow .home_content .wrap .home-data .home_title .home_logo {
             margin: 0 auto;
-            height: 120px;
+            height: 100px;
             width: 320px; }
-            .home .shadow .home_content .wrap .home-data .home_title .home_logo img {
+            .inicio .shadow .home_content .wrap .home-data .home_title .home_logo img {
               width: 100%;
               height: 100%; }
-          .home .shadow .home_content .wrap .home-data .home_title .content_button {
+          .inicio .shadow .home_content .wrap .home-data .home_title .content_button {
             width: 230px;
             margin: 0 auto; }
-            .home .shadow .home_content .wrap .home-data .home_title .content_button a {
+            .inicio .shadow .home_content .wrap .home-data .home_title .content_button a {
               padding: 0.5em;
               margin: 0.5em 0;
               display: block;
@@ -2298,47 +2298,47 @@ hr {
               border-radius: 6px;
               background-color: #AB70C0;
               font-weight: bold; }
-            .home .shadow .home_content .wrap .home-data .home_title .content_button :hover {
+            .inicio .shadow .home_content .wrap .home-data .home_title .content_button :hover {
               background-color: #F55F5F; }
-        .home .shadow .home_content .wrap .home-data .home_phone {
+        .inicio .shadow .home_content .wrap .home-data .home_phone {
           width: 30%;
           margin: 0 auto; }
-          .home .shadow .home_content .wrap .home-data .home_phone img {
+          .inicio .shadow .home_content .wrap .home-data .home_phone img {
             width: 100%; }
 
-.caracteristicas,
-.informacion {
+.beneficios,
+.servicios {
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center; }
-  .caracteristicas .info_definition,
-  .informacion .info_definition {
+  .beneficios .info_definition,
+  .servicios .info_definition {
     color: #9E9E9E;
     font-size: 17px;
     padding-top: 0;
     padding-bottom: 2.5em; }
-  .caracteristicas .content_info_article,
-  .informacion .content_info_article {
+  .beneficios .content_info_article,
+  .servicios .content_info_article {
     padding-top: 0;
     text-align: center; }
-    .caracteristicas .content_info_article .info_article,
-    .informacion .content_info_article .info_article {
+    .beneficios .content_info_article .info_article,
+    .servicios .content_info_article .info_article {
       margin-bottom: 30px; }
-      .caracteristicas .content_info_article .info_article .article_image,
-      .informacion .content_info_article .info_article .article_image {
+      .beneficios .content_info_article .info_article .article_image,
+      .servicios .content_info_article .info_article .article_image {
         margin: 0 auto;
         width: 80px; }
-        .caracteristicas .content_info_article .info_article .article_image img,
-        .informacion .content_info_article .info_article .article_image img {
+        .beneficios .content_info_article .info_article .article_image img,
+        .servicios .content_info_article .info_article .article_image img {
           width: 100%; }
-      .caracteristicas .content_info_article .info_article h3,
-      .informacion .content_info_article .info_article h3 {
+      .beneficios .content_info_article .info_article h3,
+      .servicios .content_info_article .info_article h3 {
         margin-top: 0.3em;
         margin-bottom: 0.3em;
         color: #AB70C0;
         font-size: 18px; }
-      .caracteristicas .content_info_article .info_article .article_description,
-      .informacion .content_info_article .info_article .article_description {
+      .beneficios .content_info_article .info_article .article_description,
+      .servicios .content_info_article .info_article .article_description {
         font-size: 17px;
         color: #9E9E9E; }
 
@@ -2356,7 +2356,7 @@ hr {
         margin: 0 auto;
         width: 80%; }
 
-.caracteristicas i {
+.beneficios i {
   color: #AB70C0; }
 
 .objetivo {
@@ -2366,7 +2366,7 @@ hr {
   background-size: cover;
   position: relative;
   display: block;
-  height: 600px; }
+  height: 700px; }
   .objetivo .shadow {
     position: relative;
     background-color: rgba(0, 0, 0, 0.3); }
@@ -2400,48 +2400,48 @@ footer {
       transition-duration: 1s; }
 
 @media screen and (min-width: 768px) {
-  .home .menu_logo_movil_abrir {
+  .inicio .menu_logo_movil_abrir {
     display: none; }
-  .home .menu {
+  .inicio .menu {
     display: block !important;
     width: 100%;
     position: fixed;
     z-index: 1;
     height: 5em;
     background-color: White; }
-    .home .menu .menu_logo_movil_cerrar {
+    .inicio .menu .menu_logo_movil_cerrar {
       display: none; }
-    .home .menu .menu_logo_android,
-    .home .menu .menu_secciones {
+    .inicio .menu .menu_logo_android,
+    .inicio .menu .menu_secciones {
       display: inline-block;
       vertical-align: middle;
       padding: 1em;
       text-align: center; }
-    .home .menu .menu_logo_android {
+    .inicio .menu .menu_logo_android {
       padding: 0.5em;
       text-align: center;
       width: 29%; }
-      .home .menu .menu_logo_android a i {
+      .inicio .menu .menu_logo_android a i {
         color: #9E9E9E; }
-      .home .menu .menu_logo_android a :hover {
+      .inicio .menu .menu_logo_android a :hover {
         color: #77C159; }
-    .home .menu .menu_secciones {
+    .inicio .menu .menu_secciones {
       width: 70%; }
-      .home .menu .menu_secciones ul li {
+      .inicio .menu .menu_secciones ul li {
         display: inline-block;
         vertical-align: middle; }
-        .home .menu .menu_secciones ul li :hover {
+        .inicio .menu .menu_secciones ul li :hover {
           background-color: #F55F5F;
           color: white; }
-        .home .menu .menu_secciones ul li a {
+        .inicio .menu .menu_secciones ul li a {
           padding: 1em;
           text-decoration: none;
           font-weight: bold;
           color: #AB70C0;
           border-radius: 6px; }
-  .home .shadow .home_content .wrap .home_title .content_button {
+  .inicio .shadow .home_content .wrap .home_title .content_button {
     width: 250px; }
-  .home .shadow .home_content .wrap .home_phone {
+  .inicio .shadow .home_content .wrap .home_phone {
     width: 300px; }
   .screenshots .shadow .wrapper {
     padding: 3em 0;
@@ -2449,8 +2449,8 @@ footer {
     .screenshots .shadow .wrapper .slick-slide img {
       margin: 0 auto;
       width: 80%; }
-  .caracteristicas .wrapper .content_info_article .info_article,
-  .informacion .wrapper .content_info_article .info_article {
+  .beneficios .wrapper .content_info_article .info_article,
+  .servicios .wrapper .content_info_article .info_article {
     width: 40%;
     display: inline-block;
     vertical-align: top;
@@ -2458,32 +2458,32 @@ footer {
     margin-bottom: 1em; } }
 
 @media screen and (min-width: 992px) {
-  .home .shadow .home_content .wrap {
+  .inicio .shadow .home_content .wrap {
     text-align: center;
     width: 60%; }
-    .home .shadow .home_content .wrap .home_title {
+    .inicio .shadow .home_content .wrap .home_title {
       vertical-align: top;
       display: inline-block;
       width: 50%; }
-      .home .shadow .home_content .wrap .home_title .content_button {
+      .inicio .shadow .home_content .wrap .home_title .content_button {
         width: 70%; }
-    .home .shadow .home_content .wrap .home_phone {
+    .inicio .shadow .home_content .wrap .home_phone {
       display: inline-block;
       width: 40%; }
   .screenshots .shadow .wrapper {
     max-width: 992px; }
-  .caracteristicas .wrapper .content_info_article .info_article,
-  .informacion .wrapper .content_info_article .info_article {
+  .beneficios .wrapper .content_info_article .info_article,
+  .servicios .wrapper .content_info_article .info_article {
     width: 30%;
     display: inline-block;
     vertical-align: top; } }
 
 @media screen and (min-width: 1200px) {
-  .home .shadow .home_content .wrap .home_phone img {
+  .inicio .shadow .home_content .wrap .home_phone img {
     width: 350px; }
   .screenshots .shadow .wrapper {
     max-width: 1200px; }
-  .caracteristicas .wrapper {
+  .beneficios .wrapper {
     width: 80%; } }
 
 @font-face {

@@ -4,7 +4,7 @@
 }
 .shadow {
     display: table;
-    background-color: rgba(black, 0.2);
+    background-color: rgba(black, 0.1);
     height: 100%;
     width: 100%;
     text-align: center;
@@ -26,7 +26,7 @@ hr {
         color: $verdeandroid;
     }
 }
-.home {
+.inicio {
     background-image: url('../../images/fondo2.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ hr {
                         vertical-align: middle;
                         .home_logo {
                             margin: 0 auto;
-                            height: 120px;
+                            height: 100px;
                             width: 320px;
                             img {
                                 width: 100%;
@@ -129,8 +129,8 @@ hr {
         }
     }
 }
-.caracteristicas,
-.informacion {
+.beneficios,
+.servicios {
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
@@ -186,7 +186,7 @@ hr {
         }
     }
 }
-.caracteristicas {
+.beneficios {
     i {
         color: $rojobriana;
     }
@@ -198,7 +198,7 @@ hr {
     background-size: cover;
     position: relative;
     display: block;
-    height: 600px;
+    height: 700px;
     .shadow {
         position: relative;
         background-color: rgba(black, 0.3);
@@ -234,7 +234,7 @@ footer {
                 color: red;
             }
             :hover {
-                
+
                 transform: scale(1.5 );
                 transition-duration: 1s;
             }
@@ -242,7 +242,7 @@ footer {
     }
 }
 @media screen and (min-width: 768px) {
-    .home {
+    .inicio {
         .menu_logo_movil_abrir {
             display: none;
         }
@@ -326,8 +326,8 @@ footer {
             }
         }
     }
-    .caracteristicas,
-    .informacion {
+    .beneficios,
+    .servicios {
         .wrapper {
             .content_info_article {
                 .info_article {
@@ -342,7 +342,7 @@ footer {
     }
 }
 @media screen and (min-width: 992px) {
-    .home {
+    .inicio {
         .shadow {
             .home_content {
                 .wrap {
@@ -371,8 +371,8 @@ footer {
             }
         }
     }
-    .caracteristicas,
-    .informacion {
+    .beneficios,
+    .servicios {
         .wrapper {
             .content_info_article {
                 .info_article {
@@ -385,7 +385,7 @@ footer {
     }
 }
 @media screen and (min-width: 1200px) {
-    .home .shadow .home_content .wrap .home_phone img {
+    .inicio .shadow .home_content .wrap .home_phone img {
         width: 350px;
     }
     .screenshots {
@@ -395,13 +395,13 @@ footer {
             }
         }
     }
-    .caracteristicas {
+    .beneficios {
         .wrapper {
             width: 80%;
-<<<<<<< HEAD
-
-=======
->>>>>>> 33e093aecf16e346cd33cddf3eb4d090cf9d3d23
+// <<<<<<< HEAD
+//
+// =======
+// >>>>>>> 33e093aecf16e346cd33cddf3eb4d090cf9d3d23
         }
     }
 }

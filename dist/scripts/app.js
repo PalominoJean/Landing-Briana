@@ -118,8 +118,16 @@ var App = function() {
           $('.jump').click(function () {
                 var section = $(this).text();
                 var sectionlow = section.toLowerCase();
-                document.write(section.low+" holi boli");
-                var sectionTop =$('.'+sectionlow).offset().top-30;
+                if(sectionlow=='aplicativo movil'){
+                  var sectionTop =$('.screenshots').offset().top-30;
+                }else{
+                  var sectionTop =$('.'+sectionlow).offset().top-30;
+                }
+              // alert("Hello! I am an alert box!!"+sectionlow);
+
+                // document.write("section.low +" holi boli MMMMMMMMMMMMMMMMMMMMM");
+
+
                 $("html, body").animate({
                 	scrollTop: sectionTop
                 }, 600);
