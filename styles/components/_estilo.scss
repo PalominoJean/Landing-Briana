@@ -4,16 +4,22 @@
 }
 .shadow {
     display: table;
-    background-color: rgba(black, 0.1);
+    // background-color: rgba(black, 0.1);
     height: 100%;
     width: 100%;
     text-align: center;
 }
-h2 {
-    color: $rojobriana;
+h2,
+h3 {
+    color: #fff;
+    font-family: 'kg-sketched';
+    margin-bottom:10px;
+}
+h2{
+  margin-bottom:30px;
 
 }
-hr {
+h2 hr {
     height: 2px;
     width: 130px;
     background-color: $rojobriana;
@@ -44,7 +50,8 @@ hr {
         text-shadow: 2px 2px #000000;
     }
     .menu {
-        background-color: $GreyDark;
+        // background-color: $GreyDark;
+        background-image: url('../../images/fondo4.jpg');
         position: fixed;
         z-index: 1;
         display: none;
@@ -60,9 +67,16 @@ hr {
                 li {
                     display: block;
                     a {
+                        .icon-menu {
+                            width: 30px;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        font-family: 'kg-sketched';
                         display: block;
                         padding: 1em 3em;
                         text-decoration: none;
+                        font-size: 15px;
                     }
                     :hover {
                         background-color: $grisbriana;
@@ -76,8 +90,8 @@ hr {
             padding: 1em 0;
         }
     }
-
     .shadow {
+        // background-image: url('../../images/azules.png');
         .home_content {
             display: table-cell;
             vertical-align: middle;
@@ -131,11 +145,13 @@ hr {
 }
 .beneficios,
 .servicios {
+  background-color:$moradobriana;
+
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
     .info_definition {
-        color: $grisbriana;
+        // color: $grisbriana;
         font-size: $font1;
         padding-top: 0;
         padding-bottom: 2.5em;
@@ -154,18 +170,19 @@ hr {
             }
             h3 {
                 margin-top: 0.3em;
-                margin-bottom: 0.3em;
-                color: $rojobriana;
+                // margin-bottom: 0.3em;
+                // color: $rojobriana;
                 font-size: $font2;
             }
             .article_description {
                 font-size: $font1;
-                color: $grisbriana;
+                // color: $grisbriana;
             }
         }
     }
 }
 .screenshots {
+  background-image: url('../../images/fondo4.jpg');
     position: relative;
     display: block;
     height: auto;
@@ -186,13 +203,19 @@ hr {
         }
     }
 }
-.beneficios {
-    i {
-        color: $rojobriana;
-    }
+.servicios {
+  background-color:$rojobriana;
+  // .wrapper{
+  //   h2{
+  //     // color:#fff;
+  //   }
+  //   i {
+  //     color: $rojobriana;
+  //   }
+  // }
 }
 .objetivo {
-    background-image: url('../../images/fondo1.jpg');
+    background-image: url('../../images/bebes.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,40 +224,47 @@ hr {
     height: 700px;
     .shadow {
         position: relative;
-        background-color: rgba(black, 0.3);
+        // background-color: rgba(black, 0.3);
         .wrapper {
             display: table-cell;
             vertical-align: middle;
             h2 {
-                color: White;
+                // color: White;
+                color: $moradobriana;
                 text-transform: uppercase;
                 padding-bottom: 1em;
             }
             .article_description {
-                color: white;
-                font-weight: bold;
-                width: 80%;
+
+                color: $moradobriana;
+                font-family:'comfortaa-bold';
+                // font-weight: bold;
+                width: 90%;
                 margin: auto;
-                font-size: $font2;
+                font-size: 25px;
             }
         }
     }
 }
 footer {
-    background-color: $GreyDark;
+  // background-image: url('../../images/ballas.png');
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // position: relative;
+    background-color: $moradobriana;
     text-align: center;
     h5 {
         vertical-align: middle;
         font-weight: normal;
         font-size: 13px;
         padding: 3em;
-        color: $grisbriana;
+        // color: $grisbriana;
         a {
             i {
                 color: red;
             }
             :hover {
-
                 transform: scale(1.5 );
                 transition-duration: 1s;
             }
@@ -260,7 +290,7 @@ footer {
             .menu_secciones {
                 display: inline-block;
                 vertical-align: middle;
-                padding: 1em;
+                // padding: 0.5em;
                 text-align: center;
             }
             .menu_logo_android {
@@ -287,7 +317,7 @@ footer {
                             color: white;
                         }
                         a {
-                            padding: 1em;
+                            padding: 0.5em;
                             text-decoration: none;
                             font-weight: bold;
                             color: $rojobriana;
@@ -315,7 +345,7 @@ footer {
     .screenshots {
         .shadow {
             .wrapper {
-              padding: 3em 0;
+                padding: 3em 0;
                 max-width: 768px;
                 .slick-slide {
                     img {
@@ -397,11 +427,10 @@ footer {
     }
     .beneficios {
         .wrapper {
-            width: 80%;
-// <<<<<<< HEAD
-//
-// =======
-// >>>>>>> 33e093aecf16e346cd33cddf3eb4d090cf9d3d23
+            width: 80%; // <<<<<<< HEAD
+            //
+            // =======
+            // >>>>>>> 33e093aecf16e346cd33cddf3eb4d090cf9d3d23
         }
     }
 }

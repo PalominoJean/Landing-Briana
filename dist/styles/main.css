@@ -2199,7 +2199,7 @@
 
 body,
 html {
-  font-family: 'rubik-regular';
+  font-family: 'comfortaa-regular';
   height: 100%; }
 
 .wrapper {
@@ -2208,18 +2208,23 @@ html {
 
 .shadow {
   display: table;
-  background-color: rgba(0, 0, 0, 0.1);
   height: 100%;
   width: 100%;
   text-align: center; }
 
-h2 {
-  color: #AB70C0; }
+h2,
+h3 {
+  color: #fff;
+  font-family: 'kg-sketched';
+  margin-bottom: 10px; }
 
-hr {
+h2 {
+  margin-bottom: 30px; }
+
+h2 hr {
   height: 2px;
   width: 130px;
-  background-color: #AB70C0;
+  background-color: #d095c2;
   margin: 0 auto 2em; }
 
 .android_button {
@@ -2245,7 +2250,7 @@ hr {
     z-index: 1;
     text-shadow: 2px 2px #000000; }
   .inicio .menu {
-    background-color: #323232;
+    background-image: url("../../images/fondo4.jpg");
     position: fixed;
     z-index: 1;
     display: none;
@@ -2258,9 +2263,15 @@ hr {
     .inicio .menu .menu_secciones ul li {
       display: block; }
       .inicio .menu .menu_secciones ul li a {
+        font-family: 'kg-sketched';
         display: block;
         padding: 1em 3em;
-        text-decoration: none; }
+        text-decoration: none;
+        font-size: 15px; }
+        .inicio .menu .menu_secciones ul li a .icon-menu {
+          width: 30px;
+          display: block;
+          margin: 0 auto; }
       .inicio .menu .menu_secciones ul li :hover {
         background-color: #9E9E9E;
         color: #323232; }
@@ -2296,10 +2307,10 @@ hr {
               display: block;
               text-decoration: none;
               border-radius: 6px;
-              background-color: #AB70C0;
+              background-color: #d095c2;
               font-weight: bold; }
             .inicio .shadow .home_content .wrap .home-data .home_title .content_button :hover {
-              background-color: #F55F5F; }
+              background-color: #94a3d3; }
         .inicio .shadow .home_content .wrap .home-data .home_phone {
           width: 30%;
           margin: 0 auto; }
@@ -2308,13 +2319,13 @@ hr {
 
 .beneficios,
 .servicios {
+  background-color: #94a3d3;
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center; }
   .beneficios .info_definition,
   .servicios .info_definition {
-    color: #9E9E9E;
-    font-size: 17px;
+    font-size: 18px;
     padding-top: 0;
     padding-bottom: 2.5em; }
   .beneficios .content_info_article,
@@ -2334,15 +2345,13 @@ hr {
       .beneficios .content_info_article .info_article h3,
       .servicios .content_info_article .info_article h3 {
         margin-top: 0.3em;
-        margin-bottom: 0.3em;
-        color: #AB70C0;
-        font-size: 18px; }
+        font-size: 19px; }
       .beneficios .content_info_article .info_article .article_description,
       .servicios .content_info_article .info_article .article_description {
-        font-size: 17px;
-        color: #9E9E9E; }
+        font-size: 18px; }
 
 .screenshots {
+  background-image: url("../../images/fondo4.jpg");
   position: relative;
   display: block;
   height: auto; }
@@ -2356,11 +2365,11 @@ hr {
         margin: 0 auto;
         width: 80%; }
 
-.beneficios i {
-  color: #AB70C0; }
+.servicios {
+  background-color: #d095c2; }
 
 .objetivo {
-  background-image: url("../../images/fondo1.jpg");
+  background-image: url("../../images/bebes.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2368,31 +2377,29 @@ hr {
   display: block;
   height: 700px; }
   .objetivo .shadow {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.3); }
+    position: relative; }
     .objetivo .shadow .wrapper {
       display: table-cell;
       vertical-align: middle; }
       .objetivo .shadow .wrapper h2 {
-        color: White;
+        color: #94a3d3;
         text-transform: uppercase;
         padding-bottom: 1em; }
       .objetivo .shadow .wrapper .article_description {
-        color: white;
-        font-weight: bold;
-        width: 80%;
+        color: #94a3d3;
+        font-family: 'comfortaa-bold';
+        width: 90%;
         margin: auto;
-        font-size: 18px; }
+        font-size: 25px; }
 
 footer {
-  background-color: #323232;
+  background-color: #94a3d3;
   text-align: center; }
   footer h5 {
     vertical-align: middle;
     font-weight: normal;
     font-size: 13px;
-    padding: 3em;
-    color: #9E9E9E; }
+    padding: 3em; }
     footer h5 a i {
       color: red; }
     footer h5 a :hover {
@@ -2415,7 +2422,6 @@ footer {
     .inicio .menu .menu_secciones {
       display: inline-block;
       vertical-align: middle;
-      padding: 1em;
       text-align: center; }
     .inicio .menu .menu_logo_android {
       padding: 0.5em;
@@ -2431,13 +2437,13 @@ footer {
         display: inline-block;
         vertical-align: middle; }
         .inicio .menu .menu_secciones ul li :hover {
-          background-color: #F55F5F;
+          background-color: #94a3d3;
           color: white; }
         .inicio .menu .menu_secciones ul li a {
-          padding: 1em;
+          padding: 0.5em;
           text-decoration: none;
           font-weight: bold;
-          color: #AB70C0;
+          color: #d095c2;
           border-radius: 6px; }
   .inicio .shadow .home_content .wrap .home_title .content_button {
     width: 250px; }
@@ -2487,18 +2493,6 @@ footer {
     width: 80%; } }
 
 @font-face {
-  font-family: 'lato-bold';
-  src: url("../../fonts/Lato-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'lato-light';
-  src: url("../../fonts/Lato-Light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'lato-regular';
-  src: url("../../fonts/Lato-Regular.ttf") format("truetype"); }
-
-@font-face {
   font-family: 'comfortaa-bold';
   src: url("../../fonts/Comfortaa-Bold.ttf") format("truetype"); }
 
@@ -2509,6 +2503,26 @@ footer {
 @font-face {
   font-family: 'comfortaa-regular';
   src: url("../../fonts/Comfortaa-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'kg-solid';
+  src: url("../../fonts/KGNexttoMeSolid.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'kg-sketched';
+  src: url("../../fonts/KGNexttoMeSketched.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: url("../../fonts/Lato-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'lato-light';
+  src: url("../../fonts/Lato-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: url("../../fonts/Lato-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'dosis-bold';
