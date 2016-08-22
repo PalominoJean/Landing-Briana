@@ -2255,67 +2255,80 @@ h2 hr {
     z-index: 1;
     display: none;
     right: 0;
-    height: 100%; }
+    height: 100%;
+    width: 58%; }
     .inicio .menu .menu_logo_movil_cerrar {
       text-align: right;
       margin-top: 10px;
-      margin-right: 15px; }
+      margin-right: 15px;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px #000000; }
     .inicio .menu .menu_secciones ul li {
-      display: block; }
+      display: block;
+      text-align: center; }
       .inicio .menu .menu_secciones ul li a {
         font-family: 'kg-sketched';
         display: block;
         padding: 1em 3em;
         text-decoration: none;
-        font-size: 15px; }
+        font-size: 15px;
+        color: #d095c2; }
         .inicio .menu .menu_secciones ul li a .icon-menu {
           width: 30px;
           display: block;
           margin: 0 auto; }
+        .inicio .menu .menu_secciones ul li a :hover {
+          border: 0; }
       .inicio .menu .menu_secciones ul li :hover {
-        background-color: #9E9E9E;
-        color: #323232; }
+        background-color: #fff;
+        border-top: 3px solid #d095c2;
+        border-bottom: 3px solid #d095c2; }
     .inicio .menu .menu_logo_android {
       text-align: center;
       padding: 1em 0; }
-  .inicio .shadow .home_content {
-    display: table-cell;
-    vertical-align: middle; }
-    .inicio .shadow .home_content .wrap {
-      margin: 0 auto; }
-      .inicio .shadow .home_content .wrap .home-data {
-        display: inline-block;
-        vertical-align: middle;
-        width: 100%; }
-        .inicio .shadow .home_content .wrap .home-data .home_title {
-          padding: 1em 0;
-          text-align: center;
-          vertical-align: middle; }
-          .inicio .shadow .home_content .wrap .home-data .home_title .home_logo {
-            margin: 0 auto;
-            height: 100px;
-            width: 320px; }
-            .inicio .shadow .home_content .wrap .home-data .home_title .home_logo img {
-              width: 100%;
-              height: 100%; }
-          .inicio .shadow .home_content .wrap .home-data .home_title .content_button {
-            width: 230px;
+      .inicio .menu .menu_logo_android a i {
+        color: grey; }
+  .inicio .shadow {
+    background-image: url("../../images/nubesAzules.png");
+    background-position: center; }
+    .inicio .shadow .home_content {
+      display: table-cell;
+      vertical-align: middle; }
+      .inicio .shadow .home_content .wrap {
+        margin: 0 auto; }
+        .inicio .shadow .home_content .wrap .home-data {
+          display: inline-block;
+          vertical-align: middle;
+          width: 100%; }
+          .inicio .shadow .home_content .wrap .home-data .home_title {
+            padding: 0.3em 0;
+            text-align: center;
+            vertical-align: middle; }
+            .inicio .shadow .home_content .wrap .home-data .home_title .home_logo {
+              margin: 0 auto;
+              height: 100px;
+              width: 320px; }
+              .inicio .shadow .home_content .wrap .home-data .home_title .home_logo img {
+                width: 100%;
+                height: 100%; }
+            .inicio .shadow .home_content .wrap .home-data .home_title .content_button {
+              width: 230px;
+              margin: 0 auto; }
+              .inicio .shadow .home_content .wrap .home-data .home_title .content_button a {
+                padding: 0.5em;
+                margin: 0.5em 0;
+                display: block;
+                text-decoration: none;
+                border-radius: 6px;
+                background-color: #d095c2;
+                font-weight: bold; }
+              .inicio .shadow .home_content .wrap .home-data .home_title .content_button :hover {
+                background-color: #94a3d3; }
+          .inicio .shadow .home_content .wrap .home-data .home_phone {
+            width: 30%;
             margin: 0 auto; }
-            .inicio .shadow .home_content .wrap .home-data .home_title .content_button a {
-              padding: 0.5em;
-              margin: 0.5em 0;
-              display: block;
-              text-decoration: none;
-              border-radius: 6px;
-              background-color: #d095c2;
-              font-weight: bold; }
-            .inicio .shadow .home_content .wrap .home-data .home_title .content_button :hover {
-              background-color: #94a3d3; }
-        .inicio .shadow .home_content .wrap .home-data .home_phone {
-          width: 30%;
-          margin: 0 auto; }
-          .inicio .shadow .home_content .wrap .home-data .home_phone img {
-            width: 100%; }
+            .inicio .shadow .home_content .wrap .home-data .home_phone img {
+              width: 100%; }
 
 .beneficios,
 .servicios {
@@ -2323,32 +2336,37 @@ h2 hr {
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center; }
-  .beneficios .info_definition,
-  .servicios .info_definition {
-    font-size: 18px;
-    padding-top: 0;
-    padding-bottom: 2.5em; }
-  .beneficios .content_info_article,
-  .servicios .content_info_article {
-    padding-top: 0;
-    text-align: center; }
-    .beneficios .content_info_article .info_article,
-    .servicios .content_info_article .info_article {
-      margin-bottom: 30px; }
-      .beneficios .content_info_article .info_article .article_image,
-      .servicios .content_info_article .info_article .article_image {
-        margin: 0 auto;
-        width: 80px; }
-        .beneficios .content_info_article .info_article .article_image img,
-        .servicios .content_info_article .info_article .article_image img {
-          width: 100%; }
-      .beneficios .content_info_article .info_article h3,
-      .servicios .content_info_article .info_article h3 {
-        margin-top: 0.3em;
-        font-size: 19px; }
-      .beneficios .content_info_article .info_article .article_description,
-      .servicios .content_info_article .info_article .article_description {
-        font-size: 18px; }
+  .beneficios .wrapper,
+  .servicios .wrapper {
+    background-image: url("../../images/nubesBlancas.png");
+    background-position: center;
+    background-size: cover; }
+    .beneficios .wrapper .info_definition,
+    .servicios .wrapper .info_definition {
+      font-size: 18px;
+      padding-top: 0;
+      padding-bottom: 2.5em; }
+    .beneficios .wrapper .content_info_article,
+    .servicios .wrapper .content_info_article {
+      padding-top: 0;
+      text-align: center; }
+      .beneficios .wrapper .content_info_article .info_article,
+      .servicios .wrapper .content_info_article .info_article {
+        margin-bottom: 30px; }
+        .beneficios .wrapper .content_info_article .info_article .article_image,
+        .servicios .wrapper .content_info_article .info_article .article_image {
+          margin: 0 auto;
+          width: 80px; }
+          .beneficios .wrapper .content_info_article .info_article .article_image img,
+          .servicios .wrapper .content_info_article .info_article .article_image img {
+            width: 100%; }
+        .beneficios .wrapper .content_info_article .info_article h3,
+        .servicios .wrapper .content_info_article .info_article h3 {
+          margin-top: 0.3em;
+          font-size: 19px; }
+        .beneficios .wrapper .content_info_article .info_article .article_description,
+        .servicios .wrapper .content_info_article .info_article .article_description {
+          font-size: 18px; }
 
 .screenshots {
   background-image: url("../../images/fondo4.jpg");
@@ -2392,17 +2410,53 @@ h2 hr {
         margin: auto;
         font-size: 25px; }
 
-footer {
+.contacto {
+  padding-top: 3em;
+  padding-bottom: 3em;
   background-color: #94a3d3;
   text-align: center; }
-  footer h5 {
-    vertical-align: middle;
+  .contacto p {
+    margin-top: 8px; }
+    .contacto p a {
+      text-decoration: none; }
+  .contacto .contacto-mail {
+    margin-top: 2em; }
+  .contacto .button {
+    width: 44.4%;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background-color: white; }
+  .contacto .contacto-form input, .contacto .contacto-form .form-texto {
+    color: #525252;
+    width: 250px;
+    text-align: left;
+    padding: 5px 10px;
+    border: 5px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .contacto .contacto-form .form-texto {
+    max-width: 250px;
+    min-height: 100px; }
+  .contacto .contacto-form .btn-enviar {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #94a3d3;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 150px; }
+  .contacto h5 {
     font-weight: normal;
     font-size: 13px;
-    padding: 3em; }
-    footer h5 a i {
+    margin-top: 60px; }
+    .contacto h5 a i {
       color: red; }
-    footer h5 a :hover {
+    .contacto h5 a :hover {
       transform: scale(1.5);
       transition-duration: 1s; }
 
@@ -2414,7 +2468,7 @@ footer {
     width: 100%;
     position: fixed;
     z-index: 1;
-    height: 5em;
+    height: 80px;
     background-color: White; }
     .inicio .menu .menu_logo_movil_cerrar {
       display: none; }
@@ -2422,7 +2476,8 @@ footer {
     .inicio .menu .menu_secciones {
       display: inline-block;
       vertical-align: middle;
-      text-align: center; }
+      text-align: center;
+      margin-top: 4px; }
     .inicio .menu .menu_logo_android {
       padding: 0.5em;
       text-align: center;
@@ -2436,18 +2491,23 @@ footer {
       .inicio .menu .menu_secciones ul li {
         display: inline-block;
         vertical-align: middle; }
+        .inicio .menu .menu_secciones ul li .jump .icon-menu {
+          border: none; }
         .inicio .menu .menu_secciones ul li :hover {
-          background-color: #94a3d3;
-          color: white; }
+          background-color: #fff;
+          border: 3px solid #d095c2; }
         .inicio .menu .menu_secciones ul li a {
-          padding: 0.5em;
+          padding: 0.2em;
           text-decoration: none;
           font-weight: bold;
           color: #d095c2;
           border-radius: 6px; }
-  .inicio .shadow .home_content .wrap .home_title .content_button {
-    width: 250px; }
+  .inicio .shadow .home_content .wrap .home_title {
+    width: 48%; }
+    .inicio .shadow .home_content .wrap .home_title .content_button {
+      width: 250px; }
   .inicio .shadow .home_content .wrap .home_phone {
+    width: 25%;
     width: 300px; }
   .screenshots .shadow .wrapper {
     padding: 3em 0;

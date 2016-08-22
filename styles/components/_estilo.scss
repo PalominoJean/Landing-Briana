@@ -13,11 +13,10 @@ h2,
 h3 {
     color: #fff;
     font-family: 'kg-sketched';
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-h2{
-  margin-bottom:30px;
-
+h2 {
+    margin-bottom: 30px;
 }
 h2 hr {
     height: 2px;
@@ -57,30 +56,40 @@ h2 hr {
         display: none;
         right: 0;
         height: 100%;
+        width: 58%;
         .menu_logo_movil_cerrar {
             text-align: right;
             margin-top: 10px;
             margin-right: 15px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px #000000;
         }
         .menu_secciones {
             ul {
                 li {
                     display: block;
+                    text-align: center;
                     a {
                         .icon-menu {
                             width: 30px;
                             display: block;
                             margin: 0 auto;
                         }
+                        :hover {
+                            border: 0;
+                        }
                         font-family: 'kg-sketched';
                         display: block;
                         padding: 1em 3em;
                         text-decoration: none;
                         font-size: 15px;
+                        color: $rojobriana;
                     }
                     :hover {
-                        background-color: $grisbriana;
-                        color: $GreyDark;
+                        background-color: #fff;
+                        // color: ;
+                        border-top: 3px solid $rojobriana;
+                        border-bottom: 3px solid $rojobriana;
                     }
                 }
             }
@@ -88,10 +97,22 @@ h2 hr {
         .menu_logo_android {
             text-align: center;
             padding: 1em 0;
+            // backgrounnd-color:red;{
+            a {
+                i {
+                    color: grey;
+                }
+            }
         }
     }
     .shadow {
-        // background-image: url('../../images/azules.png');
+        background-image: url('../../images/nubesAzules.png');
+        background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // position:relative;
+        // bottom:0px;
+
         .home_content {
             display: table-cell;
             vertical-align: middle;
@@ -102,9 +123,10 @@ h2 hr {
                     vertical-align: middle;
                     width: 100%;
                     .home_title {
-                        padding: 1em 0;
+                        padding: 0.3em 0;
                         text-align: center;
                         vertical-align: middle;
+                        // width:50%;
                         .home_logo {
                             margin: 0 auto;
                             height: 100px;
@@ -145,44 +167,51 @@ h2 hr {
 }
 .beneficios,
 .servicios {
-  background-color:$moradobriana;
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-    text-align: center;
+  background-color: $moradobriana;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  .wrapper{
+    background-image: url('../../images/nubesBlancas.png');
+    background-position: center;
+    // background-repeat: no-repeat;
+    background-size: cover;
+    // position:relative;
     .info_definition {
-        // color: $grisbriana;
-        font-size: $font1;
-        padding-top: 0;
-        padding-bottom: 2.5em;
+      // color: $grisbriana;
+      font-size: $font1;
+      padding-top: 0;
+      padding-bottom: 2.5em;
     }
     .content_info_article {
-        padding-top: 0;
-        text-align: center;
-        .info_article {
-            margin-bottom: 30px;
-            .article_image {
-                margin: 0 auto;
-                width: 80px;
-                img {
-                    width: 100%;
-                }
-            }
-            h3 {
-                margin-top: 0.3em;
-                // margin-bottom: 0.3em;
-                // color: $rojobriana;
-                font-size: $font2;
-            }
-            .article_description {
-                font-size: $font1;
-                // color: $grisbriana;
-            }
+      padding-top: 0;
+      text-align: center;
+      .info_article {
+        margin-bottom: 30px;
+        .article_image {
+          margin: 0 auto;
+          width: 80px;
+          img {
+            width: 100%;
+          }
         }
+        h3 {
+          margin-top: 0.3em;
+          // margin-bottom: 0.3em;
+          // color: $rojobriana;
+          font-size: $font2;
+        }
+        .article_description {
+          font-size: $font1;
+          // color: $grisbriana;
+        }
+      }
     }
+  }
 }
+
 .screenshots {
-  background-image: url('../../images/fondo4.jpg');
+    background-image: url('../../images/fondo4.jpg');
     position: relative;
     display: block;
     height: auto;
@@ -204,15 +233,15 @@ h2 hr {
     }
 }
 .servicios {
-  background-color:$rojobriana;
-  // .wrapper{
-  //   h2{
-  //     // color:#fff;
-  //   }
-  //   i {
-  //     color: $rojobriana;
-  //   }
-  // }
+    background-color: $rojobriana;
+    // .wrapper{
+    //   h2{
+    //     // color:#fff;
+    //   }
+    //   i {
+    //     color: $rojobriana;
+    //   }
+    // }
 }
 .objetivo {
     background-image: url('../../images/bebes.png');
@@ -235,9 +264,8 @@ h2 hr {
                 padding-bottom: 1em;
             }
             .article_description {
-
                 color: $moradobriana;
-                font-family:'comfortaa-bold';
+                font-family: 'comfortaa-bold';
                 // font-weight: bold;
                 width: 90%;
                 margin: auto;
@@ -246,19 +274,74 @@ h2 hr {
         }
     }
 }
-footer {
-  // background-image: url('../../images/ballas.png');
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // position: relative;
+.contacto {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    // background-image: url('../../images/ballas.png');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // position: relative;
     background-color: $moradobriana;
     text-align: center;
+    .contacto-title {}
+    p {
+        margin-top: 8px;
+        a{
+          text-decoration:none;
+        }
+        i {
+            // color:#fff;
+        }
+
+    }
+    .contacto-mail{
+      margin-top:2em;
+    }
+    .button{
+  width:44.4%;
+  padding: 5px;
+ display: inline-block;
+  border:none;
+  cursor: pointer;
+  background-color: white;
+}
+.contacto-form{
+  input,.form-texto{
+    color:$GreyLight;
+    width:250px;
+    text-align:left;
+    padding: 5px 10px;
+    border:5px;
+    border-radius: 10px;
+    display:block;
+    margin:0 auto;
+    margin-top: 10px;
+  }
+  .form-texto{
+    // height:100px;
+    max-width:250px;
+    min-height:100px;
+  }
+  .btn-enviar{
+    color:#fff;
+    // fon:bold;
+    display:block;
+    margin:0 auto;
+    margin-top:10px;
+    background-color:$moradobriana;
+    border:2px solid #fff;
+    text-align:center;
+    width:150px;
+  }
+}
     h5 {
-        vertical-align: middle;
+        // vertical-align: middle;
         font-weight: normal;
         font-size: 13px;
-        padding: 3em;
+        // position:relative;
+        margin-top:60px;
+        // padding: 3em;
         // color: $grisbriana;
         a {
             i {
@@ -281,7 +364,8 @@ footer {
             width: 100%;
             position: fixed;
             z-index: 1;
-            height: 5em;
+            // height: 5em;
+            height: 80px;
             background-color: White;
             .menu_logo_movil_cerrar {
                 display: none;
@@ -290,8 +374,9 @@ footer {
             .menu_secciones {
                 display: inline-block;
                 vertical-align: middle;
-                // padding: 0.5em;
+                // padding: 0.3em;
                 text-align: center;
+                margin-top: 4px;
             }
             .menu_logo_android {
                 padding: 0.5em;
@@ -308,16 +393,24 @@ footer {
             }
             .menu_secciones {
                 width: 70%;
+                // padding: 0.3em;
                 ul {
                     li {
                         display: inline-block;
                         vertical-align: middle;
+                        .jump {
+                            .icon-menu {
+                                border: none;
+                            }
+                            :hover {}
+                        }
                         :hover {
-                            background-color: $moradobriana;
-                            color: white;
+                            background-color: #fff;
+                            // color: ;
+                            border: 3px solid $rojobriana;
                         }
                         a {
-                            padding: 0.5em;
+                            padding: 0.2em;
                             text-decoration: none;
                             font-weight: bold;
                             color: $rojobriana;
@@ -331,11 +424,13 @@ footer {
             .home_content {
                 .wrap {
                     .home_title {
+                      width:48%;
                         .content_button {
                             width: 250px;
                         }
                     }
                     .home_phone {
+                      width:25%;
                         width: 300px;
                     }
                 }
