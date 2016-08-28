@@ -2234,14 +2234,7 @@ h2 hr {
     color: #77C159; }
 
 .inicio {
-  background-image: url("../../images/fondo2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: block;
-  height: 100%;
-  overflow: hidden; }
+  height: 100%; }
   .inicio .menu_logo_movil_abrir {
     position: fixed;
     right: 0;
@@ -2288,47 +2281,56 @@ h2 hr {
       padding: 1em 0; }
       .inicio .menu .menu_logo_android a i {
         color: grey; }
-  .inicio .shadow {
-    background-image: url("../../images/nubesAzules.png");
-    background-position: center; }
-    .inicio .shadow .home_content {
-      display: table-cell;
-      vertical-align: middle; }
-      .inicio .shadow .home_content .wrap {
-        margin: 0 auto; }
-        .inicio .shadow .home_content .wrap .home-data {
-          display: inline-block;
-          vertical-align: middle;
-          width: 100%; }
-          .inicio .shadow .home_content .wrap .home-data .home_title {
-            padding: 0.3em 0;
-            text-align: center;
-            vertical-align: middle; }
-            .inicio .shadow .home_content .wrap .home-data .home_title .home_logo {
-              margin: 0 auto;
-              height: 100px;
-              width: 320px; }
-              .inicio .shadow .home_content .wrap .home-data .home_title .home_logo img {
-                width: 100%;
-                height: 100%; }
-            .inicio .shadow .home_content .wrap .home-data .home_title .content_button {
-              width: 230px;
+  .inicio .background {
+    background-image: url("../../images/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+    overflow: hidden; }
+    .inicio .background .shadow {
+      background-image: url("../../images/nubesAzules.png");
+      background-position: center; }
+      .inicio .background .shadow .home_content {
+        display: table-cell;
+        vertical-align: middle; }
+        .inicio .background .shadow .home_content .wrap {
+          margin: 0 auto; }
+          .inicio .background .shadow .home_content .wrap .home-data {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%; }
+            .inicio .background .shadow .home_content .wrap .home-data .home_title {
+              padding: 0.3em 0;
+              text-align: center;
+              vertical-align: middle; }
+              .inicio .background .shadow .home_content .wrap .home-data .home_title .home_logo {
+                margin: 0 auto;
+                height: 100px;
+                width: 320px; }
+                .inicio .background .shadow .home_content .wrap .home-data .home_title .home_logo img {
+                  width: 100%;
+                  height: 100%; }
+              .inicio .background .shadow .home_content .wrap .home-data .home_title .content_button {
+                width: 230px;
+                margin: 0 auto; }
+                .inicio .background .shadow .home_content .wrap .home-data .home_title .content_button a {
+                  padding: 0.5em;
+                  margin: 0.5em 0;
+                  display: block;
+                  text-decoration: none;
+                  border-radius: 6px;
+                  background-color: #d095c2;
+                  font-weight: bold; }
+                .inicio .background .shadow .home_content .wrap .home-data .home_title .content_button :hover {
+                  background-color: #94a3d3; }
+            .inicio .background .shadow .home_content .wrap .home-data .home_phone {
+              width: 30%;
               margin: 0 auto; }
-              .inicio .shadow .home_content .wrap .home-data .home_title .content_button a {
-                padding: 0.5em;
-                margin: 0.5em 0;
-                display: block;
-                text-decoration: none;
-                border-radius: 6px;
-                background-color: #d095c2;
-                font-weight: bold; }
-              .inicio .shadow .home_content .wrap .home-data .home_title .content_button :hover {
-                background-color: #94a3d3; }
-          .inicio .shadow .home_content .wrap .home-data .home_phone {
-            width: 30%;
-            margin: 0 auto; }
-            .inicio .shadow .home_content .wrap .home-data .home_phone img {
-              width: 100%; }
+              .inicio .background .shadow .home_content .wrap .home-data .home_phone img {
+                width: 100%; }
 
 .beneficios,
 .servicios {
@@ -2336,36 +2338,36 @@ h2 hr {
   padding-top: 3em;
   padding-bottom: 3em;
   text-align: center; }
-  .beneficios .wrapper,
-  .servicios .wrapper {
+  .beneficios .nubes-blancas,
+  .servicios .nubes-blancas {
     background-image: url("../../images/nubesBlancas.png");
     background-position: center;
     background-size: cover; }
-    .beneficios .wrapper .info_definition,
-    .servicios .wrapper .info_definition {
+    .beneficios .nubes-blancas .wrapper .info_definition,
+    .servicios .nubes-blancas .wrapper .info_definition {
       font-size: 18px;
       padding-top: 0;
       padding-bottom: 2.5em; }
-    .beneficios .wrapper .content_info_article,
-    .servicios .wrapper .content_info_article {
+    .beneficios .nubes-blancas .wrapper .content_info_article,
+    .servicios .nubes-blancas .wrapper .content_info_article {
       padding-top: 0;
       text-align: center; }
-      .beneficios .wrapper .content_info_article .info_article,
-      .servicios .wrapper .content_info_article .info_article {
+      .beneficios .nubes-blancas .wrapper .content_info_article .info_article,
+      .servicios .nubes-blancas .wrapper .content_info_article .info_article {
         margin-bottom: 30px; }
-        .beneficios .wrapper .content_info_article .info_article .article_image,
-        .servicios .wrapper .content_info_article .info_article .article_image {
+        .beneficios .nubes-blancas .wrapper .content_info_article .info_article .article_image,
+        .servicios .nubes-blancas .wrapper .content_info_article .info_article .article_image {
           margin: 0 auto;
           width: 80px; }
-          .beneficios .wrapper .content_info_article .info_article .article_image img,
-          .servicios .wrapper .content_info_article .info_article .article_image img {
+          .beneficios .nubes-blancas .wrapper .content_info_article .info_article .article_image img,
+          .servicios .nubes-blancas .wrapper .content_info_article .info_article .article_image img {
             width: 100%; }
-        .beneficios .wrapper .content_info_article .info_article h3,
-        .servicios .wrapper .content_info_article .info_article h3 {
+        .beneficios .nubes-blancas .wrapper .content_info_article .info_article h3,
+        .servicios .nubes-blancas .wrapper .content_info_article .info_article h3 {
           margin-top: 0.3em;
           font-size: 19px; }
-        .beneficios .wrapper .content_info_article .info_article .article_description,
-        .servicios .wrapper .content_info_article .info_article .article_description {
+        .beneficios .nubes-blancas .wrapper .content_info_article .info_article .article_description,
+        .servicios .nubes-blancas .wrapper .content_info_article .info_article .article_description {
           font-size: 18px; }
 
 .screenshots {
@@ -2428,7 +2430,8 @@ h2 hr {
     border: none;
     cursor: pointer;
     background-color: white; }
-  .contacto .contacto-form input, .contacto .contacto-form .form-texto {
+  .contacto .contacto-form .form-texto,
+  .contacto .contacto-form input {
     color: #525252;
     width: 250px;
     text-align: left;
@@ -2436,16 +2439,14 @@ h2 hr {
     border: 5px;
     border-radius: 10px;
     display: block;
-    margin: 0 auto;
-    margin-top: 10px; }
+    margin: 10px auto 0; }
   .contacto .contacto-form .form-texto {
     max-width: 250px;
     min-height: 100px; }
   .contacto .contacto-form .btn-enviar {
     color: #fff;
     display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 10px auto 0;
     background-color: #94a3d3;
     border: 2px solid #fff;
     text-align: center;
@@ -2502,13 +2503,17 @@ h2 hr {
           font-weight: bold;
           color: #d095c2;
           border-radius: 6px; }
-  .inicio .shadow .home_content .wrap .home_title {
-    width: 48%; }
-    .inicio .shadow .home_content .wrap .home_title .content_button {
-      width: 250px; }
-  .inicio .shadow .home_content .wrap .home_phone {
-    width: 25%;
-    width: 300px; }
+  .inicio .espacio {
+    height: 80px; }
+  .inicio .background {
+    height: 100%; }
+    .inicio .background .shadow .home_content .wrap .home_title {
+      width: 48%; }
+      .inicio .background .shadow .home_content .wrap .home_title .content_button {
+        width: 250px; }
+    .inicio .background .shadow .home_content .wrap .home_phone {
+      width: 25%;
+      width: 300px; }
   .screenshots .shadow .wrapper {
     padding: 3em 0;
     max-width: 768px; }
@@ -2524,16 +2529,16 @@ h2 hr {
     margin-bottom: 1em; } }
 
 @media screen and (min-width: 992px) {
-  .inicio .shadow .home_content .wrap {
+  .inicio .background .shadow .home_content .wrap {
     text-align: center;
     width: 60%; }
-    .inicio .shadow .home_content .wrap .home_title {
+    .inicio .background .shadow .home_content .wrap .home_title {
       vertical-align: top;
       display: inline-block;
       width: 50%; }
-      .inicio .shadow .home_content .wrap .home_title .content_button {
+      .inicio .background .shadow .home_content .wrap .home_title .content_button {
         width: 70%; }
-    .inicio .shadow .home_content .wrap .home_phone {
+    .inicio .background .shadow .home_content .wrap .home_phone {
       display: inline-block;
       width: 40%; }
   .screenshots .shadow .wrapper {
@@ -2545,7 +2550,7 @@ h2 hr {
     vertical-align: top; } }
 
 @media screen and (min-width: 1200px) {
-  .inicio .shadow .home_content .wrap .home_phone img {
+  .inicio .background .shadow .home_content .wrap .home_phone img {
     width: 350px; }
   .screenshots .shadow .wrapper {
     max-width: 1200px; }

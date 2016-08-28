@@ -32,14 +32,14 @@ h2 hr {
     }
 }
 .inicio {
-    background-image: url('../../images/fondo2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: block;
+    // background-image: url('../../images/fondo2.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // position: relative;
+    // display: block;
     height: 100%;
-    overflow: hidden;
+    // overflow: hidden;
     .menu_logo_movil_abrir {
         position: fixed;
         right: 0;
@@ -105,59 +105,69 @@ h2 hr {
             }
         }
     }
-    .shadow {
-        background-image: url('../../images/nubesAzules.png');
+    .espacio {}
+    .background {
+        background-image: url('../../images/fondo2.jpg');
         background-position: center;
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        // position:relative;
-        // bottom:0px;
-
-        .home_content {
-            display: table-cell;
-            vertical-align: middle;
-            .wrap {
-                margin: 0 auto;
-                .home-data {
-                    display: inline-block;
-                    vertical-align: middle;
-                    width: 100%;
-                    .home_title {
-                        padding: 0.3em 0;
-                        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        .shadow {
+            background-image: url('../../images/nubesAzules.png');
+            background-position: center;
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // position:relative;
+            // bottom:0px;
+            .home_content {
+                display: table-cell;
+                vertical-align: middle;
+                .wrap {
+                    margin: 0 auto;
+                    .home-data {
+                        display: inline-block;
                         vertical-align: middle;
-                        // width:50%;
-                        .home_logo {
+                        width: 100%;
+                        .home_title {
+                            padding: 0.3em 0;
+                            text-align: center;
+                            vertical-align: middle;
+                            // width:50%;
+                            .home_logo {
+                                margin: 0 auto;
+                                height: 100px;
+                                width: 320px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .content_button {
+                                width: 230px;
+                                margin: 0 auto;
+                                a {
+                                    padding: 0.5em;
+                                    margin: 0.5em 0;
+                                    display: block;
+                                    text-decoration: none;
+                                    border-radius: 6px;
+                                    background-color: $rojobriana;
+                                    font-weight: bold;
+                                }
+                                :hover {
+                                    background-color: $moradobriana;
+                                }
+                            }
+                        }
+                        .home_phone {
+                            width: 30%;
                             margin: 0 auto;
-                            height: 100px;
-                            width: 320px;
                             img {
                                 width: 100%;
-                                height: 100%;
                             }
-                        }
-                        .content_button {
-                            width: 230px;
-                            margin: 0 auto;
-                            a {
-                                padding: 0.5em;
-                                margin: 0.5em 0;
-                                display: block;
-                                text-decoration: none;
-                                border-radius: 6px;
-                                background-color: $rojobriana;
-                                font-weight: bold;
-                            }
-                            :hover {
-                                background-color: $moradobriana;
-                            }
-                        }
-                    }
-                    .home_phone {
-                        width: 30%;
-                        margin: 0 auto;
-                        img {
-                            width: 100%;
                         }
                     }
                 }
@@ -167,49 +177,50 @@ h2 hr {
 }
 .beneficios,
 .servicios {
-  background-color: $moradobriana;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  text-align: center;
-  .wrapper{
-    background-image: url('../../images/nubesBlancas.png');
-    background-position: center;
-    // background-repeat: no-repeat;
-    background-size: cover;
-    // position:relative;
-    .info_definition {
-      // color: $grisbriana;
-      font-size: $font1;
-      padding-top: 0;
-      padding-bottom: 2.5em;
+    background-color: $moradobriana;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    .nubes-blancas {
+        background-image: url('../../images/nubesBlancas.png');
+        background-position: center;
+        // background-repeat: no-repeat;
+        background-size: cover;
+        // position:relative;
+        .wrapper {
+            .info_definition {
+                // color: $grisbriana;
+                font-size: $font1;
+                padding-top: 0;
+                padding-bottom: 2.5em;
+            }
+            .content_info_article {
+                padding-top: 0;
+                text-align: center;
+                .info_article {
+                    margin-bottom: 30px;
+                    .article_image {
+                        margin: 0 auto;
+                        width: 80px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    h3 {
+                        margin-top: 0.3em;
+                        // margin-bottom: 0.3em;
+                        // color: $rojobriana;
+                        font-size: $font2;
+                    }
+                    .article_description {
+                        font-size: $font1;
+                        // color: $grisbriana;
+                    }
+                }
+            }
+        }
     }
-    .content_info_article {
-      padding-top: 0;
-      text-align: center;
-      .info_article {
-        margin-bottom: 30px;
-        .article_image {
-          margin: 0 auto;
-          width: 80px;
-          img {
-            width: 100%;
-          }
-        }
-        h3 {
-          margin-top: 0.3em;
-          // margin-bottom: 0.3em;
-          // color: $rojobriana;
-          font-size: $font2;
-        }
-        .article_description {
-          font-size: $font1;
-          // color: $grisbriana;
-        }
-      }
-    }
-  }
 }
-
 .screenshots {
     background-image: url('../../images/fondo4.jpg');
     position: relative;
@@ -287,60 +298,58 @@ h2 hr {
     .contacto-title {}
     p {
         margin-top: 8px;
-        a{
-          text-decoration:none;
+        a {
+            text-decoration: none;
         }
         i {
             // color:#fff;
         }
-
     }
-    .contacto-mail{
-      margin-top:2em;
+    .contacto-mail {
+        margin-top: 2em;
     }
-    .button{
-  width:44.4%;
-  padding: 5px;
- display: inline-block;
-  border:none;
-  cursor: pointer;
-  background-color: white;
-}
-.contacto-form{
-  input,.form-texto{
-    color:$GreyLight;
-    width:250px;
-    text-align:left;
-    padding: 5px 10px;
-    border:5px;
-    border-radius: 10px;
-    display:block;
-    margin:0 auto;
-    margin-top: 10px;
-  }
-  .form-texto{
-    // height:100px;
-    max-width:250px;
-    min-height:100px;
-  }
-  .btn-enviar{
-    color:#fff;
-    // fon:bold;
-    display:block;
-    margin:0 auto;
-    margin-top:10px;
-    background-color:$moradobriana;
-    border:2px solid #fff;
-    text-align:center;
-    width:150px;
-  }
-}
+    .button {
+        width: 44.4%;
+        padding: 5px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+    }
+    .contacto-form {
+        .form-texto,
+        input {
+            color: $GreyLight;
+            width: 250px;
+            text-align: left;
+            padding: 5px 10px;
+            border: 5px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto 0;
+        }
+        .form-texto {
+            // height:100px;
+            max-width: 250px;
+            min-height: 100px;
+        }
+        .btn-enviar {
+            color: #fff;
+            // fon:bold;
+            display: block;
+            margin: 10px auto 0;
+            background-color: $moradobriana;
+            border: 2px solid #fff;
+            text-align: center;
+            width: 150px;
+        }
+    }
     h5 {
         // vertical-align: middle;
         font-weight: normal;
         font-size: 13px;
         // position:relative;
-        margin-top:60px;
+        margin-top: 60px;
         // padding: 3em;
         // color: $grisbriana;
         a {
@@ -420,18 +429,24 @@ h2 hr {
                 }
             }
         }
-        .shadow {
-            .home_content {
-                .wrap {
-                    .home_title {
-                      width:48%;
-                        .content_button {
-                            width: 250px;
+        .espacio{
+          height:80px;
+        }
+        .background {
+          height:100%;
+            .shadow {
+                .home_content {
+                    .wrap {
+                        .home_title {
+                            width: 48%;
+                            .content_button {
+                                width: 250px;
+                            }
                         }
-                    }
-                    .home_phone {
-                      width:25%;
-                        width: 300px;
+                        .home_phone {
+                            width: 25%;
+                            width: 300px;
+                        }
                     }
                 }
             }
@@ -468,26 +483,32 @@ h2 hr {
 }
 @media screen and (min-width: 992px) {
     .inicio {
+      .espacio{
+
+      }
+      .background{
+
         .shadow {
-            .home_content {
-                .wrap {
-                    text-align: center;
-                    width: 60%;
-                    .home_title {
-                        vertical-align: top;
-                        display: inline-block;
-                        width: 50%;
-                        .content_button {
-                            width: 70%;
-                        }
-                    }
-                    .home_phone {
-                        display: inline-block;
-                        width: 40%;
-                    }
+          .home_content {
+            .wrap {
+              text-align: center;
+              width: 60%;
+              .home_title {
+                vertical-align: top;
+                display: inline-block;
+                width: 50%;
+                .content_button {
+                  width: 70%;
                 }
+              }
+              .home_phone {
+                display: inline-block;
+                width: 40%;
+              }
             }
+          }
         }
+      }
     }
     .screenshots {
         .shadow {
@@ -510,7 +531,7 @@ h2 hr {
     }
 }
 @media screen and (min-width: 1200px) {
-    .inicio .shadow .home_content .wrap .home_phone img {
+    .inicio .background .shadow .home_content .wrap .home_phone img {
         width: 350px;
     }
     .screenshots {
