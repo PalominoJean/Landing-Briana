@@ -118,7 +118,7 @@ var App = function() {
           $('.jump').click(function () {
                 var section = $(this).text();
                 var sectionlow = section.toLowerCase();
-                if(sectionlow=='aplicativo movil'){
+                if(sectionlow=='aplicativo móvil'){
                   var sectionTop =$('.screenshots').offset().top-30;
                 }else{
                   var sectionTop =$('.'+sectionlow).offset().top-30;

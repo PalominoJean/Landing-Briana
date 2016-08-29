@@ -118,8 +118,9 @@ h2 hr {
         .shadow {
             background-image: url('../../images/nubesAzules.png');
             background-position: center;
-            // background-repeat: no-repeat;
-            // background-size: cover;
+            background-repeat: no-repeat;
+            background-size: cover;
+            // height: 100%;
             // position:relative;
             // bottom:0px;
             .home_content {
@@ -271,7 +272,7 @@ h2 hr {
             h2 {
                 // color: White;
                 color: $moradobriana;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 padding-bottom: 1em;
             }
             .article_description {
@@ -305,45 +306,45 @@ h2 hr {
             // color:#fff;
         }
     }
-    .contacto-mail {
-        margin-top: 2em;
-    }
-    .button {
-        width: 44.4%;
-        padding: 5px;
-        display: inline-block;
-        border: none;
-        cursor: pointer;
-        background-color: white;
-    }
-    .contacto-form {
-        .form-texto,
-        input {
-            color: $GreyLight;
-            width: 250px;
-            text-align: left;
-            padding: 5px 10px;
-            border: 5px;
-            border-radius: 10px;
-            display: block;
-            margin: 10px auto 0;
-        }
-        .form-texto {
-            // height:100px;
-            max-width: 250px;
-            min-height: 100px;
-        }
-        .btn-enviar {
-            color: #fff;
-            // fon:bold;
-            display: block;
-            margin: 10px auto 0;
-            background-color: $moradobriana;
-            border: 2px solid #fff;
-            text-align: center;
-            width: 150px;
-        }
-    }
+    // .contacto-mail {
+    //     margin-top: 2em;
+    // }
+    // .button {
+    //     width: 44.4%;
+    //     padding: 5px;
+    //     display: inline-block;
+    //     border: none;
+    //     cursor: pointer;
+    //     background-color: white;
+    // }
+    // .contacto-form {
+    //     .form-texto,
+    //     input {
+    //         color: $GreyLight;
+    //         width: 250px;
+    //         text-align: left;
+    //         padding: 5px 10px;
+    //         border: 5px;
+    //         border-radius: 10px;
+    //         display: block;
+    //         margin: 10px auto 0;
+    //     }
+    //     .form-texto {
+    //         // height:100px;
+    //         max-width: 250px;
+    //         min-height: 100px;
+    //     }
+    //     .btn-enviar {
+    //         color: #fff;
+    //         // fon:bold;
+    //         display: block;
+    //         margin: 10px auto 0;
+    //         background-color: $moradobriana;
+    //         border: 2px solid #fff;
+    //         text-align: center;
+    //         width: 150px;
+    //     }
+    // }
     h5 {
         // vertical-align: middle;
         font-weight: normal;
@@ -373,8 +374,8 @@ h2 hr {
             width: 100%;
             position: fixed;
             z-index: 1;
-            // height: 5em;
-            height: 80px;
+
+            height: 10%;
             background-color: White;
             .menu_logo_movil_cerrar {
                 display: none;
@@ -385,12 +386,13 @@ h2 hr {
                 vertical-align: middle;
                 // padding: 0.3em;
                 text-align: center;
-                margin-top: 4px;
+                margin: 10px 0px;
             }
             .menu_logo_android {
-                padding: 0.5em;
-                text-align: center;
-                width: 29%;
+                padding: 0;
+                // text-align: center;
+                width: 25%;
+                float:right;
                 a {
                     i {
                         color: $grisbriana;
@@ -401,10 +403,13 @@ h2 hr {
                 }
             }
             .menu_secciones {
-                width: 70%;
+                width: 75%;
+                float:left;
                 // padding: 0.3em;
                 ul {
+
                     li {
+                      margin:0 4px;
                         display: inline-block;
                         vertical-align: middle;
                         .jump {
@@ -430,10 +435,10 @@ h2 hr {
             }
         }
         .espacio{
-          height:80px;
+          height:10%;
         }
         .background {
-          height:100%;
+          height:90%;
             .shadow {
                 .home_content {
                     .wrap {
@@ -543,10 +548,8 @@ h2 hr {
     }
     .beneficios {
         .wrapper {
-            width: 80%; // <<<<<<< HEAD
-            //
-            // =======
-            // >>>>>>> 33e093aecf16e346cd33cddf3eb4d090cf9d3d23
+            width: 80%;
+
         }
     }
 }
