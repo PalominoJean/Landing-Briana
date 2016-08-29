@@ -2428,28 +2428,6 @@ h2 hr {
     border: none;
     cursor: pointer;
     background-color: white; }
-  .contacto .contacto-form input, .contacto .contacto-form .form-texto {
-    color: #525252;
-    width: 250px;
-    text-align: left;
-    padding: 5px 10px;
-    border: 5px;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px; }
-  .contacto .contacto-form .form-texto {
-    max-width: 250px;
-    min-height: 100px; }
-  .contacto .contacto-form .btn-enviar {
-    color: #fff;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    background-color: #94a3d3;
-    border: 2px solid #fff;
-    text-align: center;
-    width: 150px; }
   .contacto h5 {
     font-weight: normal;
     font-size: 13px;
@@ -2492,10 +2470,14 @@ h2 hr {
         display: inline-block;
         vertical-align: middle; }
         .inicio .menu .menu_secciones ul li .jump .icon-menu {
-          border: none; }
+          background-color: #fff; }
         .inicio .menu .menu_secciones ul li :hover {
-          background-color: #fff;
-          border: 3px solid #d095c2; }
+          background-color: #d095c2;
+          color: #fff;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+          .inicio .menu .menu_secciones ul li :hover .icon-menu {
+            width: 0px; }
         .inicio .menu .menu_secciones ul li a {
           padding: 0.2em;
           text-decoration: none;

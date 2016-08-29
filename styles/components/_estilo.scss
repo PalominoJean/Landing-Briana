@@ -306,35 +306,35 @@ h2 hr {
   cursor: pointer;
   background-color: white;
 }
-.contacto-form{
-  input,.form-texto{
-    color:$GreyLight;
-    width:250px;
-    text-align:left;
-    padding: 5px 10px;
-    border:5px;
-    border-radius: 10px;
-    display:block;
-    margin:0 auto;
-    margin-top: 10px;
-  }
-  .form-texto{
-    // height:100px;
-    max-width:250px;
-    min-height:100px;
-  }
-  .btn-enviar{
-    color:#fff;
-    // fon:bold;
-    display:block;
-    margin:0 auto;
-    margin-top:10px;
-    background-color:$moradobriana;
-    border:2px solid #fff;
-    text-align:center;
-    width:150px;
-  }
-}
+// .contacto-form{
+//   input,.form-texto{
+//     color:$GreyLight;
+//     width:250px;
+//     text-align:left;
+//     padding: 5px 10px;
+//     border:5px;
+//     border-radius: 10px;
+//     display:block;
+//     margin:0 auto;
+//     margin-top: 10px;
+//   }
+//   .form-texto{
+//     // height:100px;
+//     max-width:250px;
+//     min-height:100px;
+//   }
+//   .btn-enviar{
+//     color:#fff;
+//     // fon:bold;
+//     display:block;
+//     margin:0 auto;
+//     margin-top:10px;
+//     background-color:$moradobriana;
+//     border:2px solid #fff;
+//     text-align:center;
+//     width:150px;
+//   }
+// }
     h5 {
         // vertical-align: middle;
         font-weight: normal;
@@ -400,14 +400,21 @@ h2 hr {
                         vertical-align: middle;
                         .jump {
                             .icon-menu {
-                                border: none;
+                                // border: none;
+                                // color:#fff;
+                                background-color: #fff;
+                                // width: 3px;
                             }
                             :hover {}
                         }
                         :hover {
-                            background-color: #fff;
-                            // color: ;
-                            border: 3px solid $rojobriana;
+                            background-color: $rojobriana;
+                            color: #fff;
+                            padding-top: 20px ;
+                            padding-bottom: 20px;
+                            .icon-menu{
+                              width: 0px;
+                            }
                         }
                         a {
                             padding: 0.2em;
