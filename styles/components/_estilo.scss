@@ -33,7 +33,6 @@ h2 hr {
 }
 .inicio {
     height: 100%;
-
     .menu_logo_movil_abrir {
         position: fixed;
         right: 0;
@@ -149,13 +148,13 @@ h2 hr {
                                 }
                             }
                         }
-                        .home_phone {
-                            width: 30%;
-                            margin: 0 auto;
-                            img {
-                                width: 100%;
-                            }
-                        }
+                        // .home_phone {
+                        //     width: 30%;
+                        //     margin: 0 auto;
+                        //     img {
+                        //         width: 100%;
+                        //     }
+                        // }
                     }
                 }
             }
@@ -266,45 +265,43 @@ h2 hr {
             text-decoration: none;
         }
     }
-
-    .button{
-  width:44.4%;
-  padding: 5px;
- display: inline-block;
-  border:none;
-  cursor: pointer;
-  background-color: white;
-}
-// .contacto-form{
-//   input,.form-texto{
-//     color:$GreyLight;
-//     width:250px;
-//     text-align:left;
-//     padding: 5px 10px;
-//     border:5px;
-//     border-radius: 10px;
-//     display:block;
-//     margin:0 auto;
-//     margin-top: 10px;
-//   }
-//   .form-texto{
-//     // height:100px;
-//     max-width:250px;
-//     min-height:100px;
-//   }
-//   .btn-enviar{
-//     color:#fff;
-//     // fon:bold;
-//     display:block;
-//     margin:0 auto;
-//     margin-top:10px;
-//     background-color:$moradobriana;
-//     border:2px solid #fff;
-//     text-align:center;
-//     width:150px;
-//   }
-// }
-
+    .button {
+        width: 44.4%;
+        padding: 5px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        background-color: white;
+    }
+    // .contacto-form{
+    //   input,.form-texto{
+    //     color:$GreyLight;
+    //     width:250px;
+    //     text-align:left;
+    //     padding: 5px 10px;
+    //     border:5px;
+    //     border-radius: 10px;
+    //     display:block;
+    //     margin:0 auto;
+    //     margin-top: 10px;
+    //   }
+    //   .form-texto{
+    //     // height:100px;
+    //     max-width:250px;
+    //     min-height:100px;
+    //   }
+    //   .btn-enviar{
+    //     color:#fff;
+    //     // fon:bold;
+    //     display:block;
+    //     margin:0 auto;
+    //     margin-top:10px;
+    //     background-color:$moradobriana;
+    //     border:2px solid #fff;
+    //     text-align:center;
+    //     width:150px;
+    //   }
+    // }
     // .contacto-mail {
     //     margin-top: 2em;
     // }
@@ -344,7 +341,6 @@ h2 hr {
     //         width: 150px;
     //     }
     // }
-
     h5 {
         font-weight: normal;
         font-size: 13px;
@@ -370,7 +366,6 @@ h2 hr {
             width: 100%;
             position: fixed;
             z-index: 1;
-
             height: 10%;
             background-color: White;
             .menu_logo_movil_cerrar {
@@ -381,12 +376,12 @@ h2 hr {
                 display: inline-block;
                 vertical-align: middle;
                 text-align: center;
-                margin: 10px 0px;
+                margin: 10px 0;
             }
             .menu_logo_android {
                 padding: 0;
                 width: 25%;
-                float:right;
+                float: right;
                 a {
                     i {
                         color: $grisbriana;
@@ -398,20 +393,19 @@ h2 hr {
             }
             .menu_secciones {
                 width: 75%;
-                float:left;
-                margin: 7px 0;
+                float: left;
+                margin: 12px 0;
                 ul {
-
                     li {
-                      margin:0 4px;
+                        margin: 0 4px;
                         display: inline-block;
                         vertical-align: middle;
                         .jump {
-                          padding: 0.2em;
-                          text-decoration: none;
-                          font-weight: bold;
-                          color: $rojobriana;
-                          border-radius: 6px;
+                            padding: 0.2em;
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: $rojobriana;
+                            border-radius: 6px;
                             .icon-menu {
                                 background-color: #fff;
                             }
@@ -419,21 +413,20 @@ h2 hr {
                         .jump:hover {
                             background-color: $rojobriana;
                             color: #fff;
-                            padding-top: 20px ;
-                            padding-bottom: 20px;
-                            .icon-menu{
-                              width: 0px;
+                            padding: 15px 4px;
+                            .icon-menu {
+                                width: 0;
                             }
                         }
                     }
                 }
             }
         }
-        .espacio{
-          height:10%;
+        .espacio {
+            height: 10%;
         }
         .background {
-          height:90%;
+            height: 90%;
             .shadow {
                 .home_content {
                     .wrap {
@@ -443,10 +436,10 @@ h2 hr {
                                 width: 250px;
                             }
                         }
-                        .home_phone {
-                            width: 25%;
-                            width: 300px;
-                        }
+                        // .home_phone {
+                        //     width: 25%;
+                        //     width: 300px;
+                        // }
                     }
                 }
             }
@@ -483,32 +476,29 @@ h2 hr {
 }
 @media screen and (min-width: 992px) {
     .inicio {
-      .espacio{
-
-      }
-      .background{
-
-        .shadow {
-          .home_content {
-            .wrap {
-              text-align: center;
-              width: 60%;
-              .home_title {
-                vertical-align: top;
-                display: inline-block;
-                width: 50%;
-                .content_button {
-                  width: 70%;
+        .espacio {}
+        .background {
+            .shadow {
+                .home_content {
+                    .wrap {
+                        text-align: center;
+                        width: 60%;
+                        .home_title {
+                            vertical-align: top;
+                            display: inline-block;
+                            width: 50%;
+                            .content_button {
+                                width: 70%;
+                            }
+                        }
+                        // .home_phone {
+                        //     display: inline-block;
+                        //     width: 40%;
+                        // }
+                    }
                 }
-              }
-              .home_phone {
-                display: inline-block;
-                width: 40%;
-              }
             }
-          }
         }
-      }
     }
     .screenshots {
         .shadow {
@@ -544,7 +534,6 @@ h2 hr {
     .beneficios {
         .wrapper {
             width: 80%;
-
         }
     }
 }
